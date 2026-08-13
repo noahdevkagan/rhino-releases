@@ -3,6 +3,15 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.7</title>
+            <pubDate>Thu, 13 Aug 2026 17:10:48 -0500</pubDate>
+            <sparkle:version>56</sparkle:version>
+            <sparkle:shortVersionString>0.1.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.7/Rhino-0.1.7.dmg" length="15691044" type="application/octet-stream" sparkle:edSignature="cdmRh8lvEYJlpiiMmOkjLlUggCDvN9YuTT2Iq+mdbTLUU4GnqjGRSqBA45Ra4Gvj38hVTcdof8/DZGcBj32zDA=="/>
+        </item>
+        <item>
             <title>0.1.6</title>
             <pubDate>Wed, 12 Aug 2026 23:34:47 -0500</pubDate>
             <sparkle:version>55</sparkle:version>
@@ -19,15 +28,6 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.5/Rhino-0.1.5.dmg" length="15679707" type="application/octet-stream" sparkle:edSignature="JOHW+Os0oNwllRRV8tdDregJnwMymjAjgHpza/GnjLbNI/seWugNp0Xcnh+n4DP9bkk5h/nzrgZhH8je8UtMBA=="/>
-        </item>
-        <item>
-            <title>0.1.4</title>
-            <pubDate>Wed, 12 Aug 2026 17:41:46 -0500</pubDate>
-            <sparkle:version>53</sparkle:version>
-            <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.4/Rhino-0.1.4.dmg" length="14563183" type="application/octet-stream" sparkle:edSignature="bO02VmoTZD6sKCBdc13Lc4dsdgtDuXpgRU/o9ZFro/Ii5N8tVQWOwWL43BYx+c0aYRmmuz+jILEAhbpHZkSsCg=="/>
         </item>
     </channel>
 </rss>
