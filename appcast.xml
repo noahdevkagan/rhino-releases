@@ -3,6 +3,21 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.8</title>
+            <pubDate>Tue, 18 Aug 2026 16:54:45 -0700</pubDate>
+            <sparkle:version>57</sparkle:version>
+            <sparkle:shortVersionString>0.1.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Turning on "Clean up with an LLM" now downloads the on-device cleanup model
+  automatically, so cleanup and Smart formatting work right away instead of
+  silently doing nothing until the model was fetched by hand.
+- Update prompts now include the matching changelog notes, so you can see
+  what's new before installing each Rhino update.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.8/Rhino-0.1.8.dmg" length="15644370" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>0.1.7</title>
             <pubDate>Thu, 13 Aug 2026 17:10:48 -0500</pubDate>
             <sparkle:version>56</sparkle:version>
@@ -19,15 +34,6 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.6/Rhino-0.1.6.dmg" length="15655110" type="application/octet-stream" sparkle:edSignature="jRcoCp0YFU9mLhNI9MaG83czDCuJW4Pm+CM+GoNpBpcZ4tUQPPGKThHVUIRcBLdG0+DEy3BcMRT9UyTz+JI/Ag=="/>
-        </item>
-        <item>
-            <title>0.1.5</title>
-            <pubDate>Wed, 12 Aug 2026 23:00:59 -0500</pubDate>
-            <sparkle:version>54</sparkle:version>
-            <sparkle:shortVersionString>0.1.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.5/Rhino-0.1.5.dmg" length="15679707" type="application/octet-stream" sparkle:edSignature="JOHW+Os0oNwllRRV8tdDregJnwMymjAjgHpza/GnjLbNI/seWugNp0Xcnh+n4DP9bkk5h/nzrgZhH8je8UtMBA=="/>
         </item>
     </channel>
 </rss>
