@@ -3,6 +3,23 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.11</title>
+            <pubDate>Wed, 19 Aug 2026 07:09:27 -0700</pubDate>
+            <sparkle:version>60</sparkle:version>
+            <sparkle:shortVersionString>0.1.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- First-time setup no longer fails with a "TranscriptionError error 0" dialog
+  when Parakeet was already downloaded: the checkmarked model is now the one
+  Continue actually verifies, instead of the Whisper default.
+- The menu bar shows a red dot and an "Install Update…" item when an update
+  is ready to install; both clear once you're up to date.
+- Speech-model load failures now explain what went wrong in plain words
+  instead of a raw error code.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.11/Rhino-0.1.11.dmg" length="15738993" type="application/octet-stream" sparkle:edSignature="kTFjH3W3SdPxkoxPH/ijuLQeVgDRGvKArsWTl8RR038DSZ2uoQTnRiuGN/guwQzF4pot4/T6XNFmjXvC9XBaCQ=="/>
+        </item>
+        <item>
             <title>0.1.10</title>
             <pubDate>Tue, 18 Aug 2026 23:37:00 -0700</pubDate>
             <sparkle:version>59</sparkle:version>
@@ -36,21 +53,6 @@
   future updates work normally again.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.9/Rhino-0.1.9.dmg" length="15644536" type="application/octet-stream" sparkle:edSignature="gRtK4EJU8skNAFheUbOeJNP78XNtl8FR859gL6YGAh1sb594CnHC1Dibb1sunlUbOpt87Gp4k63RTND6JOV4CQ=="/>
-        </item>
-        <item>
-            <title>0.1.8</title>
-            <pubDate>Tue, 18 Aug 2026 16:54:45 -0700</pubDate>
-            <sparkle:version>57</sparkle:version>
-            <sparkle:shortVersionString>0.1.8</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Turning on "Clean up with an LLM" now downloads the on-device cleanup model
-  automatically, so cleanup and Smart formatting work right away instead of
-  silently doing nothing until the model was fetched by hand.
-- Update prompts now include the matching changelog notes, so you can see
-  what's new before installing each Rhino update.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.8/Rhino-0.1.8.dmg" length="15644370" type="application/octet-stream"/>
         </item>
     </channel>
 </rss>
