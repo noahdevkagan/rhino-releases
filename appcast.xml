@@ -3,6 +3,20 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.9</title>
+            <pubDate>Tue, 18 Aug 2026 17:22:21 -0700</pubDate>
+            <sparkle:version>58</sparkle:version>
+            <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Same app as 0.1.8, re-issued with a new update-signing key after moving
+  releases to a new machine. Installed 0.1.1–0.1.8 copies can't verify this
+  update automatically — download this version once from the website and
+  future updates work normally again.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.9/Rhino-0.1.9.dmg" length="15644536" type="application/octet-stream" sparkle:edSignature="gRtK4EJU8skNAFheUbOeJNP78XNtl8FR859gL6YGAh1sb594CnHC1Dibb1sunlUbOpt87Gp4k63RTND6JOV4CQ=="/>
+        </item>
+        <item>
             <title>0.1.8</title>
             <pubDate>Tue, 18 Aug 2026 16:54:45 -0700</pubDate>
             <sparkle:version>57</sparkle:version>
@@ -25,15 +39,6 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.7/Rhino-0.1.7.dmg" length="15691044" type="application/octet-stream" sparkle:edSignature="cdmRh8lvEYJlpiiMmOkjLlUggCDvN9YuTT2Iq+mdbTLUU4GnqjGRSqBA45Ra4Gvj38hVTcdof8/DZGcBj32zDA=="/>
-        </item>
-        <item>
-            <title>0.1.6</title>
-            <pubDate>Wed, 12 Aug 2026 23:34:47 -0500</pubDate>
-            <sparkle:version>55</sparkle:version>
-            <sparkle:shortVersionString>0.1.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.6/Rhino-0.1.6.dmg" length="15655110" type="application/octet-stream" sparkle:edSignature="jRcoCp0YFU9mLhNI9MaG83czDCuJW4Pm+CM+GoNpBpcZ4tUQPPGKThHVUIRcBLdG0+DEy3BcMRT9UyTz+JI/Ag=="/>
         </item>
     </channel>
 </rss>
