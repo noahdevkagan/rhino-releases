@@ -3,6 +3,27 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.10</title>
+            <pubDate>Tue, 18 Aug 2026 23:37:00 -0700</pubDate>
+            <sparkle:version>59</sparkle:version>
+            <sparkle:shortVersionString>0.1.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Home and History are now one screen: your dictation stats sit on top with
+  your history and search right below.
+- The active model is shown on Home, so you can always see what's doing the
+  transcribing — click it to switch models.
+- Settings opens inside the main window and was redesigned with Apple-style
+  grouped cells.
+- The recording indicator is now a compact black pill docked at the bottom of
+  the screen, showing the app you're dictating into and a live waveform.
+- The live transcription preview shows your words sooner and the bubble
+  expands smoothly instead of snapping.
+- About Rhino: thank you to Paul Stamatiou for all the feedback.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.10/Rhino-0.1.10.dmg" length="15723669" type="application/octet-stream" sparkle:edSignature="SeXodiO7JBZ2JwDNegv4iO1kEEBsOwIfsBheSCfxG9bd4UNv7yLiV/w9lEszXKdOxpKnEIs/N7WPHuW/Jo+QCg=="/>
+        </item>
+        <item>
             <title>0.1.9</title>
             <pubDate>Tue, 18 Aug 2026 17:22:21 -0700</pubDate>
             <sparkle:version>58</sparkle:version>
@@ -30,15 +51,6 @@
   what's new before installing each Rhino update.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.8/Rhino-0.1.8.dmg" length="15644370" type="application/octet-stream"/>
-        </item>
-        <item>
-            <title>0.1.7</title>
-            <pubDate>Thu, 13 Aug 2026 17:10:48 -0500</pubDate>
-            <sparkle:version>56</sparkle:version>
-            <sparkle:shortVersionString>0.1.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.7/Rhino-0.1.7.dmg" length="15691044" type="application/octet-stream" sparkle:edSignature="cdmRh8lvEYJlpiiMmOkjLlUggCDvN9YuTT2Iq+mdbTLUU4GnqjGRSqBA45Ra4Gvj38hVTcdof8/DZGcBj32zDA=="/>
         </item>
     </channel>
 </rss>
