@@ -3,6 +3,36 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.12</title>
+            <pubDate>Wed, 19 Aug 2026 21:47:17 -0700</pubDate>
+            <sparkle:version>61</sparkle:version>
+            <sparkle:shortVersionString>0.1.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- First-time setup now walks you through the two permissions Rhino needs,
+  with live status — and it registers Rhino in the Accessibility list for
+  you, so the toggle is right there instead of a hunt through System
+  Settings.
+- Setup is simpler: pick one of two speech models (Parakeet v3 is
+  recommended), with punctuation cleanup as a clearly optional add-on. The
+  other model variants still live in Settings → Models.
+- The dictate-key choice in setup now actually applies — it silently stayed
+  Fn before, whatever you picked. The alternative key is now Right ⌘.
+- After setup, pressing Fn no longer pops the Mac's emoji picker
+  mid-dictation. Emoji stays available with ⌃⌘Space; undo anytime in
+  System Settings → Keyboard.
+- Parakeet downloads show a real progress bar, plus a note while the model
+  is optimized for your Mac — no more wondering if the spinner is stuck.
+- Fixed a crash that could hit the next dictation after AirPods or your
+  microphone changed, and a rare crash when cancelling with Esc just as a
+  transcription finished.
+- Dictations no longer vanish silently when the Accessibility grant has
+  gone stale: the text stays on the clipboard with a notice explaining the
+  one-time fix, and Settings → Dictation shows live permission status.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.12/Rhino-0.1.12.dmg" length="15764885" type="application/octet-stream" sparkle:edSignature="Qs61QtermaEZJOmJuoAtR9E3uoO8vKGVQQtBeMtHtyH8jX+4AyP5inE/mhzPJNhZMo/Z7Dl9ot4KcCZPAzr8CQ=="/>
+        </item>
+        <item>
             <title>0.1.11</title>
             <pubDate>Wed, 19 Aug 2026 07:09:27 -0700</pubDate>
             <sparkle:version>60</sparkle:version>
@@ -39,20 +69,6 @@
 - About Rhino: thank you to Paul Stamatiou for all the feedback.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.10/Rhino-0.1.10.dmg" length="15723669" type="application/octet-stream" sparkle:edSignature="SeXodiO7JBZ2JwDNegv4iO1kEEBsOwIfsBheSCfxG9bd4UNv7yLiV/w9lEszXKdOxpKnEIs/N7WPHuW/Jo+QCg=="/>
-        </item>
-        <item>
-            <title>0.1.9</title>
-            <pubDate>Tue, 18 Aug 2026 17:22:21 -0700</pubDate>
-            <sparkle:version>58</sparkle:version>
-            <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Same app as 0.1.8, re-issued with a new update-signing key after moving
-  releases to a new machine. Installed 0.1.1–0.1.8 copies can't verify this
-  update automatically — download this version once from the website and
-  future updates work normally again.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.9/Rhino-0.1.9.dmg" length="15644536" type="application/octet-stream" sparkle:edSignature="gRtK4EJU8skNAFheUbOeJNP78XNtl8FR859gL6YGAh1sb594CnHC1Dibb1sunlUbOpt87Gp4k63RTND6JOV4CQ=="/>
         </item>
     </channel>
 </rss>
