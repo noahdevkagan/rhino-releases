@@ -3,6 +3,25 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.13</title>
+            <pubDate>Thu, 20 Aug 2026 17:01:08 -0700</pubDate>
+            <sparkle:version>62</sparkle:version>
+            <sparkle:shortVersionString>0.1.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Smart formatting now lays dictated emails out as emails — greeting on its
+  own line, a blank line between thoughts, sign-off and name on their own
+  lines — instead of one long run-on line.
+- Say "new line" or "new paragraph" while dictating (with smart formatting
+  on) to insert real breaks. Sentences that just happen to contain those
+  words are left alone.
+- Memory no longer climbs dictation after dictation with Parakeet: the
+  speech model is loaded once and reused, instead of being rebuilt for every
+  dictation and live preview.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.13/Rhino-0.1.13.dmg" length="15783689" type="application/octet-stream" sparkle:edSignature="N/Ib5UPkw0GDeEgM877nqyJ0Zp45Ou+VXH1KwHZY37uQjoEnSPP5v1cI2uPEM3vttkqHqy9UocUqlwd6dMVjDw=="/>
+        </item>
+        <item>
             <title>0.1.12</title>
             <pubDate>Wed, 19 Aug 2026 21:47:17 -0700</pubDate>
             <sparkle:version>61</sparkle:version>
@@ -48,27 +67,6 @@
   instead of a raw error code.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.11/Rhino-0.1.11.dmg" length="15738993" type="application/octet-stream" sparkle:edSignature="kTFjH3W3SdPxkoxPH/ijuLQeVgDRGvKArsWTl8RR038DSZ2uoQTnRiuGN/guwQzF4pot4/T6XNFmjXvC9XBaCQ=="/>
-        </item>
-        <item>
-            <title>0.1.10</title>
-            <pubDate>Tue, 18 Aug 2026 23:37:00 -0700</pubDate>
-            <sparkle:version>59</sparkle:version>
-            <sparkle:shortVersionString>0.1.10</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Home and History are now one screen: your dictation stats sit on top with
-  your history and search right below.
-- The active model is shown on Home, so you can always see what's doing the
-  transcribing — click it to switch models.
-- Settings opens inside the main window and was redesigned with Apple-style
-  grouped cells.
-- The recording indicator is now a compact black pill docked at the bottom of
-  the screen, showing the app you're dictating into and a live waveform.
-- The live transcription preview shows your words sooner and the bubble
-  expands smoothly instead of snapping.
-- About Rhino: thank you to Paul Stamatiou for all the feedback.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.10/Rhino-0.1.10.dmg" length="15723669" type="application/octet-stream" sparkle:edSignature="SeXodiO7JBZ2JwDNegv4iO1kEEBsOwIfsBheSCfxG9bd4UNv7yLiV/w9lEszXKdOxpKnEIs/N7WPHuW/Jo+QCg=="/>
         </item>
     </channel>
 </rss>
