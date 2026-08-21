@@ -3,6 +3,26 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.14</title>
+            <pubDate>Thu, 20 Aug 2026 23:02:29 -0700</pubDate>
+            <sparkle:version>63</sparkle:version>
+            <sparkle:shortVersionString>0.1.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Setup is now three numbered steps shown one at a time — Permissions →
+  Dictate key → Speech model — moving forward automatically as you complete
+  each, instead of one long screen that read like settings. Completed steps
+  stay clickable if you want to go back.
+- When an update is available, the red dot now sits on the rhino icon in the
+  menu bar like a notification badge, instead of floating as a stray dot
+  beside it. The icon still adapts to light and dark menu bars.
+- A new "Dictionary…" item in the menu bar (⌘D while the menu is open) opens
+  the main window already on the Dictionary tab, so you can add or fix a
+  word immediately.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.14/Rhino-0.1.14.dmg" length="15831414" type="application/octet-stream" sparkle:edSignature="yq9fa8DSm7qeb4wfBjL0aEVeZG4qXmEHgO3C8kO2f2rZDzOS5Aaolu+XAlXhInIbxasBXl9On7che9N5/15uDA=="/>
+        </item>
+        <item>
             <title>0.1.13</title>
             <pubDate>Thu, 20 Aug 2026 17:01:08 -0700</pubDate>
             <sparkle:version>62</sparkle:version>
@@ -50,23 +70,6 @@
   one-time fix, and Settings → Dictation shows live permission status.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.12/Rhino-0.1.12.dmg" length="15764885" type="application/octet-stream" sparkle:edSignature="Qs61QtermaEZJOmJuoAtR9E3uoO8vKGVQQtBeMtHtyH8jX+4AyP5inE/mhzPJNhZMo/Z7Dl9ot4KcCZPAzr8CQ=="/>
-        </item>
-        <item>
-            <title>0.1.11</title>
-            <pubDate>Wed, 19 Aug 2026 07:09:27 -0700</pubDate>
-            <sparkle:version>60</sparkle:version>
-            <sparkle:shortVersionString>0.1.11</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- First-time setup no longer fails with a "TranscriptionError error 0" dialog
-  when Parakeet was already downloaded: the checkmarked model is now the one
-  Continue actually verifies, instead of the Whisper default.
-- The menu bar shows a red dot and an "Install Update…" item when an update
-  is ready to install; both clear once you're up to date.
-- Speech-model load failures now explain what went wrong in plain words
-  instead of a raw error code.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.11/Rhino-0.1.11.dmg" length="15738993" type="application/octet-stream" sparkle:edSignature="kTFjH3W3SdPxkoxPH/ijuLQeVgDRGvKArsWTl8RR038DSZ2uoQTnRiuGN/guwQzF4pot4/T6XNFmjXvC9XBaCQ=="/>
         </item>
     </channel>
 </rss>
