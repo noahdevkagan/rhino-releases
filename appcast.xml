@@ -4,7 +4,7 @@
         <title>Rhino</title>
         <item>
             <title>0.1.15</title>
-            <pubDate>Thu, 27 Aug 2026 01:12:59 -0500</pubDate>
+            <pubDate>Thu, 27 Aug 2026 01:17:37 -0500</pubDate>
             <sparkle:version>64</sparkle:version>
             <sparkle:shortVersionString>0.1.15</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
@@ -25,7 +25,7 @@
   dictation language, and the Parakeet model now gets told which language
   you selected instead of guessing per phrase.
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.15/Rhino-0.1.15.dmg" length="15819206" type="application/octet-stream" sparkle:edSignature="P8dDOSX2lzAl0pUzDDhs3Qgn0UF2PtQGpyO5rBW/fFtPPHbyySgX2mb5sPCRoo3cVlZ6WQwGbsL6RahGpxl5DQ=="/>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.15/Rhino-0.1.15.dmg" length="15819701" type="application/octet-stream" sparkle:edSignature="Ixl9Absh5Dxza4/FgIrdX4oNJwo6IlDgaAmvlV5e/k/XXykwvZAJrlZK/qZTl/7M9DzvkusetNRl1nfe0G1YDA=="/>
         </item>
         <item>
             <title>0.1.14</title>
