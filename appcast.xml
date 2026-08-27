@@ -3,6 +3,31 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.15</title>
+            <pubDate>Thu, 27 Aug 2026 01:12:59 -0500</pubDate>
+            <sparkle:version>64</sparkle:version>
+            <sparkle:shortVersionString>0.1.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- New: Spoken edits (Settings → Output → Cleanup). Correct yourself out
+  loud — "the demo is Tuesday… wait, scrap that, it moved to Thursday" —
+  and Rhino types only the corrected version. Works with "scrap that",
+  "scratch that", "I mean", "actually, make that…", and "scrap all of
+  that" to start over. Off by default.
+- Dictated emails now format properly at real length: longer messages come
+  out in short paragraphs instead of one solid block, and the sign-off name
+  no longer picks up a stray period.
+- Music and podcasts resume again after dictating when "pause audio while
+  dictating" is on — macOS 15.4 broke the old resume check in shipped
+  builds; the new one doesn't rely on the API Apple locked down.
+- Dictating in German (or any non-English language) no longer comes back
+  in English or Russian at times: the cleanup pass is pinned to your
+  dictation language, and the Parakeet model now gets told which language
+  you selected instead of guessing per phrase.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.15/Rhino-0.1.15.dmg" length="15819206" type="application/octet-stream" sparkle:edSignature="P8dDOSX2lzAl0pUzDDhs3Qgn0UF2PtQGpyO5rBW/fFtPPHbyySgX2mb5sPCRoo3cVlZ6WQwGbsL6RahGpxl5DQ=="/>
+        </item>
+        <item>
             <title>0.1.14</title>
             <pubDate>Thu, 20 Aug 2026 23:02:29 -0700</pubDate>
             <sparkle:version>63</sparkle:version>
@@ -40,36 +65,6 @@
   dictation and live preview.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.13/Rhino-0.1.13.dmg" length="15783689" type="application/octet-stream" sparkle:edSignature="N/Ib5UPkw0GDeEgM877nqyJ0Zp45Ou+VXH1KwHZY37uQjoEnSPP5v1cI2uPEM3vttkqHqy9UocUqlwd6dMVjDw=="/>
-        </item>
-        <item>
-            <title>0.1.12</title>
-            <pubDate>Wed, 19 Aug 2026 21:47:17 -0700</pubDate>
-            <sparkle:version>61</sparkle:version>
-            <sparkle:shortVersionString>0.1.12</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- First-time setup now walks you through the two permissions Rhino needs,
-  with live status — and it registers Rhino in the Accessibility list for
-  you, so the toggle is right there instead of a hunt through System
-  Settings.
-- Setup is simpler: pick one of two speech models (Parakeet v3 is
-  recommended), with punctuation cleanup as a clearly optional add-on. The
-  other model variants still live in Settings → Models.
-- The dictate-key choice in setup now actually applies — it silently stayed
-  Fn before, whatever you picked. The alternative key is now Right ⌘.
-- After setup, pressing Fn no longer pops the Mac's emoji picker
-  mid-dictation. Emoji stays available with ⌃⌘Space; undo anytime in
-  System Settings → Keyboard.
-- Parakeet downloads show a real progress bar, plus a note while the model
-  is optimized for your Mac — no more wondering if the spinner is stuck.
-- Fixed a crash that could hit the next dictation after AirPods or your
-  microphone changed, and a rare crash when cancelling with Esc just as a
-  transcription finished.
-- Dictations no longer vanish silently when the Accessibility grant has
-  gone stale: the text stays on the clipboard with a notice explaining the
-  one-time fix, and Settings → Dictation shows live permission status.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.12/Rhino-0.1.12.dmg" length="15764885" type="application/octet-stream" sparkle:edSignature="Qs61QtermaEZJOmJuoAtR9E3uoO8vKGVQQtBeMtHtyH8jX+4AyP5inE/mhzPJNhZMo/Z7Dl9ot4KcCZPAzr8CQ=="/>
         </item>
     </channel>
 </rss>
