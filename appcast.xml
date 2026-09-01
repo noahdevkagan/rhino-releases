@@ -3,6 +3,25 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.18</title>
+            <pubDate>Mon, 31 Aug 2026 22:08:46 -0500</pubDate>
+            <sparkle:version>67</sparkle:version>
+            <sparkle:shortVersionString>0.1.18</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Dictation lands noticeably faster. AI cleanup no longer re-reads its full
+  instructions on every dictation — they're prepared once and warmed up while
+  you're still speaking — roughly halving cleanup time per dictation, and
+  cutting it ~6× with smart formatting on. The speech model also runs a
+  warm-up at launch, so the first dictation of the day is as fast as the tenth.
+- Custom dictionary's "boost recognition" no longer rebuilds its vocabulary on
+  every dictation — boosted dictations are up to ~3× faster.
+- Slow-dictation reports can now pinpoint the cause: every dictation logs
+  where its time went (reading audio, transcription, cleanup).
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.18/Rhino-0.1.18.dmg" length="15837997" type="application/octet-stream" sparkle:edSignature="Ac/h4etTw/aBdGBI6baVDcp1O2E4hG1liF6oIK/ct94kwaNdz6GdPAtVIBDdYhSVbw8DVjh1bDi/jYfRgmd6BQ=="/>
+        </item>
+        <item>
             <title>0.1.17</title>
             <pubDate>Mon, 31 Aug 2026 20:17:43 -0500</pubDate>
             <sparkle:version>66</sparkle:version>
@@ -33,31 +52,6 @@
   v3 (multilingual) any time in Settings → Models.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.16/Rhino-0.1.16.dmg" length="15819714" type="application/octet-stream" sparkle:edSignature="r1TTECpqjUKkuPB1idSFHT9n4cK4hugPtPQryOt9maFYr9uBidWzthjwYSZspu8DbyqA83NZGS0Fk8guoGjvBA=="/>
-        </item>
-        <item>
-            <title>0.1.15</title>
-            <pubDate>Thu, 27 Aug 2026 01:17:37 -0500</pubDate>
-            <sparkle:version>64</sparkle:version>
-            <sparkle:shortVersionString>0.1.15</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- New: Spoken edits (Settings → Output → Cleanup). Correct yourself out
-  loud — "the demo is Tuesday… wait, scrap that, it moved to Thursday" —
-  and Rhino types only the corrected version. Works with "scrap that",
-  "scratch that", "I mean", "actually, make that…", and "scrap all of
-  that" to start over. Off by default.
-- Dictated emails now format properly at real length: longer messages come
-  out in short paragraphs instead of one solid block, and the sign-off name
-  no longer picks up a stray period.
-- Music and podcasts resume again after dictating when "pause audio while
-  dictating" is on — macOS 15.4 broke the old resume check in shipped
-  builds; the new one doesn't rely on the API Apple locked down.
-- Dictating in German (or any non-English language) no longer comes back
-  in English or Russian at times: the cleanup pass is pinned to your
-  dictation language, and the Parakeet model now gets told which language
-  you selected instead of guessing per phrase.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.15/Rhino-0.1.15.dmg" length="15819701" type="application/octet-stream" sparkle:edSignature="Ixl9Absh5Dxza4/FgIrdX4oNJwo6IlDgaAmvlV5e/k/XXykwvZAJrlZK/qZTl/7M9DzvkusetNRl1nfe0G1YDA=="/>
         </item>
     </channel>
 </rss>
