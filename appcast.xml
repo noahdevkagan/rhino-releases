@@ -3,6 +3,25 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.20</title>
+            <pubDate>Fri, 04 Sep 2026 14:33:18 -0500</pubDate>
+            <sparkle:version>69</sparkle:version>
+            <sparkle:shortVersionString>0.1.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Dictation no longer pastes twice when two copies of Rhino are running.
+  Launching Rhino now takes over from any older copy still open — the stuck
+  instance left behind by an update, or a second copy started from Downloads
+  or a mounted disk image — instead of both of them typing your words.
+- Onboarding no longer asks you to download a speech model you already have:
+  if Parakeet v3 is on your Mac, it's offered as a choice and Finish works
+  right away.
+- The main window can be resized freely again; dragging its edge no longer
+  snaps it back to a narrow width that clipped the layout.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.20/Rhino-0.1.20.dmg" length="15888881" type="application/octet-stream" sparkle:edSignature="YxX9+IrJsEP0BVB4nlqPEiDOc07bbUwIMtyZN+cI7eiqmBRHCJGX/XY4oIPSrgGlhDr+Rv0Mds1Ut92RoPN3Cg=="/>
+        </item>
+        <item>
             <title>0.1.19</title>
             <pubDate>Fri, 04 Sep 2026 10:40:47 -0500</pubDate>
             <sparkle:version>68</sparkle:version>
@@ -46,24 +65,6 @@
   where its time went (reading audio, transcription, cleanup).
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.18/Rhino-0.1.18.dmg" length="15837997" type="application/octet-stream" sparkle:edSignature="Ac/h4etTw/aBdGBI6baVDcp1O2E4hG1liF6oIK/ct94kwaNdz6GdPAtVIBDdYhSVbw8DVjh1bDi/jYfRgmd6BQ=="/>
-        </item>
-        <item>
-            <title>0.1.17</title>
-            <pubDate>Mon, 31 Aug 2026 20:17:43 -0500</pubDate>
-            <sparkle:version>66</sparkle:version>
-            <sparkle:shortVersionString>0.1.17</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- New: hide the menu bar icon (Settings → Advanced → App). Dictation keeps
-  working with it hidden; open Rhino again from Applications or Spotlight to
-  bring the window back.
-- Picking Fn as your dictate key in Settings now also switches off the Mac's
-  own press-🌐-for-emoji shortcut, so the emoji picker stops popping up in
-  the middle of dictating. Setup already did this — switching to Fn
-  afterwards didn't. Emoji stays available on ⌃⌘Space, and you can undo it
-  in System Settings → Keyboard.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.17/Rhino-0.1.17.dmg" length="15834740" type="application/octet-stream" sparkle:edSignature="HkeL2PNDjKH0oXdcnBfOguPrhiRlNsNJsqE3sWIVfK0lWFsSxNcknHDJC94ZcZLNyFyaSsSUNjzUb5zVN8Q6CA=="/>
         </item>
     </channel>
 </rss>
