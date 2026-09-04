@@ -4,7 +4,7 @@
         <title>Rhino</title>
         <item>
             <title>0.1.20</title>
-            <pubDate>Fri, 04 Sep 2026 14:33:18 -0500</pubDate>
+            <pubDate>Fri, 04 Sep 2026 14:37:37 -0500</pubDate>
             <sparkle:version>69</sparkle:version>
             <sparkle:shortVersionString>0.1.20</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
@@ -19,7 +19,7 @@
 - The main window can be resized freely again; dragging its edge no longer
   snaps it back to a narrow width that clipped the layout.
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.20/Rhino-0.1.20.dmg" length="15888881" type="application/octet-stream" sparkle:edSignature="YxX9+IrJsEP0BVB4nlqPEiDOc07bbUwIMtyZN+cI7eiqmBRHCJGX/XY4oIPSrgGlhDr+Rv0Mds1Ut92RoPN3Cg=="/>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.20/Rhino-0.1.20.dmg" length="15888854" type="application/octet-stream" sparkle:edSignature="AjxEut4QFqx8HbHgb0Alk2jOOk5/ViheYdYOfTezar9FVzQC5azs+N6cE5llmF+3WqLrLxAi9v4J0amWtLdYDA=="/>
         </item>
         <item>
             <title>0.1.19</title>
