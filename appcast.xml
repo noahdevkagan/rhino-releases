@@ -3,6 +3,25 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.21</title>
+            <pubDate>Fri, 11 Sep 2026 12:24:09 -0500</pubDate>
+            <sparkle:version>70</sparkle:version>
+            <sparkle:shortVersionString>0.1.21</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Dictating with AirPods no longer gets stuck on "Connecting…". Rhino now
+  opens a fresh audio connection for every dictation, so AirPods that
+  reconnected since your last one are picked up correctly instead of freezing
+  the app until you quit it.
+- If AirPods (or any headset mic) disconnect between dictations, Rhino falls
+  back to your Mac's microphone within a few seconds instead of waiting
+  forever.
+- If the live preview can't start, the dictation still records and transcribes
+  normally; only the on-screen preview is skipped.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.21/Rhino-0.1.21.dmg" length="15911692" type="application/octet-stream" sparkle:edSignature="6gYxjxkwJlzI4KyswGrbayUFqFPC1swgtTbnumW8fPFp5w5aXQzySjE4TCirZQMt/uCZUZJZeVL+YzN8FT9eCA=="/>
+        </item>
+        <item>
             <title>0.1.20</title>
             <pubDate>Fri, 04 Sep 2026 14:37:37 -0500</pubDate>
             <sparkle:version>69</sparkle:version>
@@ -46,25 +65,6 @@
   wrong tab.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.19/Rhino-0.1.19.dmg" length="15899783" type="application/octet-stream" sparkle:edSignature="f9E7PJFYWnKc4E4nidvIWMXaa1mVgwjc3MgndW5GNXZ9vMktaQqPxrfPPu0/qrtICdFUNI3UwR/QEP2AijpGAw=="/>
-        </item>
-        <item>
-            <title>0.1.18</title>
-            <pubDate>Mon, 31 Aug 2026 22:08:46 -0500</pubDate>
-            <sparkle:version>67</sparkle:version>
-            <sparkle:shortVersionString>0.1.18</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Dictation lands noticeably faster. AI cleanup no longer re-reads its full
-  instructions on every dictation — they're prepared once and warmed up while
-  you're still speaking — roughly halving cleanup time per dictation, and
-  cutting it ~6× with smart formatting on. The speech model also runs a
-  warm-up at launch, so the first dictation of the day is as fast as the tenth.
-- Custom dictionary's "boost recognition" no longer rebuilds its vocabulary on
-  every dictation — boosted dictations are up to ~3× faster.
-- Slow-dictation reports can now pinpoint the cause: every dictation logs
-  where its time went (reading audio, transcription, cleanup).
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.18/Rhino-0.1.18.dmg" length="15837997" type="application/octet-stream" sparkle:edSignature="Ac/h4etTw/aBdGBI6baVDcp1O2E4hG1liF6oIK/ct94kwaNdz6GdPAtVIBDdYhSVbw8DVjh1bDi/jYfRgmd6BQ=="/>
         </item>
     </channel>
 </rss>
