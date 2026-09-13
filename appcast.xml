@@ -3,6 +3,19 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.22</title>
+            <pubDate>Sun, 13 Sep 2026 10:07:30 -0500</pubDate>
+            <sparkle:version>71</sparkle:version>
+            <sparkle:shortVersionString>0.1.22</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- The recording bubble can no longer get stuck on screen. If a transcription never finishes, the bubble dismisses itself after two minutes, and pressing Esc now closes it in every state instead of only while recording, so you no longer have to quit Rhino to get rid of it.
+- Dictating into Claude, ChatGPT, or a terminal (Terminal, iTerm2, Warp, WezTerm, kitty, Ghostty, Hyper) now inserts your words verbatim. Rhino skips its AI cleanup pass for those apps so instructions meant for the assistant are passed through instead of being acted on. Toggle under Settings → Advanced → Safeguards.
+- Recordings of five minutes or longer are copied to your clipboard and flagged ("Long recording — copied, press ⌘V to paste") instead of being pasted automatically, so a forgotten recording can't dump a wall of text into whatever you had open. History still saves the transcript. Toggle under Settings → Advanced → Safeguards.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.22/Rhino-0.1.22.dmg" length="15897404" type="application/octet-stream" sparkle:edSignature="Zbp+K248PObfLm9Qct6iO7oOwj11V0CVHDuMtaiY+cguxAvtAq5sWYXOuUuKUaISjfa5dFVbIwUG953juGYPAw=="/>
+        </item>
+        <item>
             <title>0.1.21</title>
             <pubDate>Fri, 11 Sep 2026 12:24:09 -0500</pubDate>
             <sparkle:version>70</sparkle:version>
@@ -39,32 +52,6 @@
   snaps it back to a narrow width that clipped the layout.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.20/Rhino-0.1.20.dmg" length="15888854" type="application/octet-stream" sparkle:edSignature="AjxEut4QFqx8HbHgb0Alk2jOOk5/ViheYdYOfTezar9FVzQC5azs+N6cE5llmF+3WqLrLxAi9v4J0amWtLdYDA=="/>
-        </item>
-        <item>
-            <title>0.1.19</title>
-            <pubDate>Fri, 04 Sep 2026 10:40:47 -0500</pubDate>
-            <sparkle:version>68</sparkle:version>
-            <sparkle:shortVersionString>0.1.19</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Finishing a dictation no longer starts music you had paused. Rhino now
-  checks whether media was actually playing (Spotify and Music tell it
-  directly) instead of guessing from whether anything was using the speakers
-  — so a paused song, a Zoom call, or Rhino's own start chime no longer
-  trigger a resume.
-- No more phantom "Thank you." typed when you said nothing. Whisper's stock
-  silence hallucinations are filtered only when the audio agrees there was no
-  speech — a real "Thank you." you dictate still comes through.
-- Hands-free start chime no longer stutters when you double- or triple-tap the
-  dictate key.
-- Failed dictations in History now show the exact error, in selectable text
-  you can paste into a support report.
-- New envelope button in the sidebar footer opens Send Feedback in one click.
-- The version number in the sidebar is now clickable and opens What's New.
-  Also fixed: Home's "Get a model" banner sometimes opened Settings on the
-  wrong tab.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.19/Rhino-0.1.19.dmg" length="15899783" type="application/octet-stream" sparkle:edSignature="f9E7PJFYWnKc4E4nidvIWMXaa1mVgwjc3MgndW5GNXZ9vMktaQqPxrfPPu0/qrtICdFUNI3UwR/QEP2AijpGAw=="/>
         </item>
     </channel>
 </rss>
