@@ -3,6 +3,25 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.23</title>
+            <pubDate>Wed, 16 Sep 2026 18:55:36 -0500</pubDate>
+            <sparkle:version>72</sparkle:version>
+            <sparkle:shortVersionString>0.1.23</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Long dictations no longer come back cut off mid-sentence. Rhino's AI
+  cleanup pass could truncate transcripts past roughly four minutes of
+  speech; it now skips cleanup on very long recordings and throws away any
+  cleaned-up text that came back incomplete, so you always keep the full
+  transcript.
+- Dictating in another language with Language set to Auto-detect no longer
+  turns your words into English. Rhino now identifies the language on your
+  Mac before the cleanup pass and holds it there, and discards the cleanup
+  result outright if it switches languages anyway.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.23/Rhino-0.1.23.dmg" length="15909033" type="application/octet-stream" sparkle:edSignature="VldvpTkUF7L7xoS492xuyQxa/Aq+486Ghnt3YOnSRmreooTkNgGTyR0KdG/jcJFMwzOL8L6ZhcG0xGi/bEURCA=="/>
+        </item>
+        <item>
             <title>0.1.22</title>
             <pubDate>Sun, 13 Sep 2026 10:07:30 -0500</pubDate>
             <sparkle:version>71</sparkle:version>
@@ -33,25 +52,6 @@
   normally; only the on-screen preview is skipped.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.21/Rhino-0.1.21.dmg" length="15911692" type="application/octet-stream" sparkle:edSignature="6gYxjxkwJlzI4KyswGrbayUFqFPC1swgtTbnumW8fPFp5w5aXQzySjE4TCirZQMt/uCZUZJZeVL+YzN8FT9eCA=="/>
-        </item>
-        <item>
-            <title>0.1.20</title>
-            <pubDate>Fri, 04 Sep 2026 14:37:37 -0500</pubDate>
-            <sparkle:version>69</sparkle:version>
-            <sparkle:shortVersionString>0.1.20</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Dictation no longer pastes twice when two copies of Rhino are running.
-  Launching Rhino now takes over from any older copy still open — the stuck
-  instance left behind by an update, or a second copy started from Downloads
-  or a mounted disk image — instead of both of them typing your words.
-- Onboarding no longer asks you to download a speech model you already have:
-  if Parakeet v3 is on your Mac, it's offered as a choice and Finish works
-  right away.
-- The main window can be resized freely again; dragging its edge no longer
-  snaps it back to a narrow width that clipped the layout.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.20/Rhino-0.1.20.dmg" length="15888854" type="application/octet-stream" sparkle:edSignature="AjxEut4QFqx8HbHgb0Alk2jOOk5/ViheYdYOfTezar9FVzQC5azs+N6cE5llmF+3WqLrLxAi9v4J0amWtLdYDA=="/>
         </item>
     </channel>
 </rss>
