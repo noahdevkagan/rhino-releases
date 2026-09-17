@@ -9,8 +9,10 @@
             <sparkle:shortVersionString>0.1.24</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Pressing Fn starts recording right away, even when the app you're
-  dictating into is slow to answer. Rhino used to ask the app where your
+            <description sparkle:format="markdown"><![CDATA[- Starting a recording no longer waits on the app you're dictating into.
+  Whatever you've bound — Fn, a custom shortcut, hold-to-record or the
+  double-tap hands-free start — it begins right away, even when that app is
+  slow to answer. Rhino used to ask the app where your
   text cursor was before it began, so an app with a busy Accessibility
   server could hold up the start of a recording. Those lookups now happen
   in the background: the recording bubble appears immediately at your
