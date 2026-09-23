@@ -3,6 +3,22 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.26</title>
+            <pubDate>Tue, 22 Sep 2026 23:37:39 -0500</pubDate>
+            <sparkle:version>75</sparkle:version>
+            <sparkle:shortVersionString>0.1.26</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- If you run a clipboard manager like Maccy, your dictations no longer pile
+  up in its history. With "Copy to clipboard" off, Rhino only borrows the
+  clipboard for about a second to paste, and fast clipboard managers could
+  grab the text in that window. The borrowed text is now marked as
+  temporary, the standard signal clipboard managers use to skip an entry.
+  Anything you copy yourself still shows up in history as before.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.26/Rhino-0.1.26.dmg" length="15945963" type="application/octet-stream" sparkle:edSignature="jsU73PBGQXCUj6pCggHCP6dLwadvxJflPqWJw753mAb3xSxC//+8lvuRtHM72oQjj6IN283UYCByrV+/7NQAAQ=="/>
+        </item>
+        <item>
             <title>0.1.25</title>
             <pubDate>Tue, 22 Sep 2026 11:52:58 -0500</pubDate>
             <sparkle:version>74</sparkle:version>
@@ -36,25 +52,6 @@
   entrance is also quicker and less bouncy.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.24/Rhino-0.1.24.dmg" length="15918346" type="application/octet-stream" sparkle:edSignature="mtkg+0wuf8K61Z5ag+WVqOtb7zC4V/XsLeTmTrNLowpBWcqfwquJlp8aAfXWKs/IhmOyyXXLaquE37ARVczNAg=="/>
-        </item>
-        <item>
-            <title>0.1.23</title>
-            <pubDate>Wed, 16 Sep 2026 18:55:36 -0500</pubDate>
-            <sparkle:version>72</sparkle:version>
-            <sparkle:shortVersionString>0.1.23</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Long dictations no longer come back cut off mid-sentence. Rhino's AI
-  cleanup pass could truncate transcripts past roughly four minutes of
-  speech; it now skips cleanup on very long recordings and throws away any
-  cleaned-up text that came back incomplete, so you always keep the full
-  transcript.
-- Dictating in another language with Language set to Auto-detect no longer
-  turns your words into English. Rhino now identifies the language on your
-  Mac before the cleanup pass and holds it there, and discards the cleanup
-  result outright if it switches languages anyway.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.23/Rhino-0.1.23.dmg" length="15909033" type="application/octet-stream" sparkle:edSignature="VldvpTkUF7L7xoS492xuyQxa/Aq+486Ghnt3YOnSRmreooTkNgGTyR0KdG/jcJFMwzOL8L6ZhcG0xGi/bEURCA=="/>
         </item>
     </channel>
 </rss>
