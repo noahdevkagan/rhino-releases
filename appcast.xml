@@ -3,6 +3,28 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.28</title>
+            <pubDate>Thu, 24 Sep 2026 10:25:29 -0500</pubDate>
+            <sparkle:version>77</sparkle:version>
+            <sparkle:shortVersionString>0.1.28</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Rhino finishes faster after you stop talking. The AI cleanup pass used to
+  re-type your transcript one word-piece at a time; it now guesses ahead
+  from what you said and checks many pieces at once, keeping only what it
+  would have written anyway. In a local benchmark a 77-word dictation
+  dropped from 1.3 seconds to 0.44 and a 249-word one from 4.3 seconds to
+  0.74. The first dictation after Rhino has been idle is quicker too. The
+  wording of your transcripts is unchanged.
+- With "Pause media during recording" on, Rhino no longer starts music you
+  had paused yourself. Some apps keep a silent audio stream open in the
+  background, which Rhino mistook for playing media and then "resumed" after
+  dictating. Rhino now only resumes known media apps like browsers and
+  music, podcast and video players.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.28/Rhino-0.1.28.dmg" length="15963389" type="application/octet-stream" sparkle:edSignature="b3hx2b/TbK7M3M4jEXujy/O5SnrBu6S4DdvIUVcAGhR95wR/YRlYPC4maD/+vh4bpY7YZa+eEcU2HkCqfYaeAA=="/>
+        </item>
+        <item>
             <title>0.1.27</title>
             <pubDate>Wed, 23 Sep 2026 23:53:13 -0500</pubDate>
             <sparkle:version>76</sparkle:version>
@@ -33,22 +55,6 @@
   Anything you copy yourself still shows up in history as before.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.26/Rhino-0.1.26.dmg" length="15945963" type="application/octet-stream" sparkle:edSignature="jsU73PBGQXCUj6pCggHCP6dLwadvxJflPqWJw753mAb3xSxC//+8lvuRtHM72oQjj6IN283UYCByrV+/7NQAAQ=="/>
-        </item>
-        <item>
-            <title>0.1.25</title>
-            <pubDate>Tue, 22 Sep 2026 11:52:58 -0500</pubDate>
-            <sparkle:version>74</sparkle:version>
-            <sparkle:shortVersionString>0.1.25</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Dictation comes back faster when you use spoken corrections and smart
-  formatting together. Rhino runs those as two AI passes, and each one used
-  to evict the other's warmed-up instructions, so every dictation re-read
-  several hundred tokens of setup after you stopped speaking. Both passes now
-  stay warm at once: in a local benchmark that path dropped from about 2.2
-  seconds to 0.5. The wording of your transcripts is unchanged.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.25/Rhino-0.1.25.dmg" length="15932240" type="application/octet-stream" sparkle:edSignature="mgRD+UNs1QcvvNW7meV6byCtjHGQj5Iuhz+/m2Xvd9HpkV4TJBTEZgsYbgFj/37kCVax5Ea6pRwsKYPa/irqAQ=="/>
         </item>
     </channel>
 </rss>
