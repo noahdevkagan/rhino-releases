@@ -3,6 +3,22 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.27</title>
+            <pubDate>Wed, 23 Sep 2026 23:53:13 -0500</pubDate>
+            <sparkle:version>76</sparkle:version>
+            <sparkle:shortVersionString>0.1.27</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Happy Rhino Day! Give three friends Rhino Voice for free through AppSumo
+  with coupon `rhinofree`. Open “Give 3 friends Rhino for free…” in the menu
+  bar to copy the link and coupon or a ready-to-send invitation.
+- A one-time sharing popup appears after five successful dictations, once
+  Rhino is idle. It leaves your typing focus alone and disappears when you
+  start another recording.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.27/Rhino-0.1.27.dmg" length="15997398" type="application/octet-stream" sparkle:edSignature="xq0FyBuCVaLECaG3jFEFcJjjalgRcD5Lxr/TimzHN7qaNHT3bfmD5kR7nRhWLcM+XYn46ACT1wxVTyrDl7NmAg=="/>
+        </item>
+        <item>
             <title>0.1.26</title>
             <pubDate>Tue, 22 Sep 2026 23:37:39 -0500</pubDate>
             <sparkle:version>75</sparkle:version>
@@ -33,25 +49,6 @@
   seconds to 0.5. The wording of your transcripts is unchanged.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.25/Rhino-0.1.25.dmg" length="15932240" type="application/octet-stream" sparkle:edSignature="mgRD+UNs1QcvvNW7meV6byCtjHGQj5Iuhz+/m2Xvd9HpkV4TJBTEZgsYbgFj/37kCVax5Ea6pRwsKYPa/irqAQ=="/>
-        </item>
-        <item>
-            <title>0.1.24</title>
-            <pubDate>Thu, 17 Sep 2026 14:43:57 -0500</pubDate>
-            <sparkle:version>73</sparkle:version>
-            <sparkle:shortVersionString>0.1.24</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Starting a recording no longer waits on the app you're dictating into.
-  Whatever you've bound — Fn, a custom shortcut, hold-to-record or the
-  double-tap hands-free start — it begins right away, even when that app is
-  slow to answer. Rhino used to ask the app where your
-  text cursor was before it began, so an app with a busy Accessibility
-  server could hold up the start of a recording. Those lookups now happen
-  in the background: the recording bubble appears immediately at your
-  pointer and moves to the text cursor once the app replies. The bubble's
-  entrance is also quicker and less bouncy.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.24/Rhino-0.1.24.dmg" length="15918346" type="application/octet-stream" sparkle:edSignature="mtkg+0wuf8K61Z5ag+WVqOtb7zC4V/XsLeTmTrNLowpBWcqfwquJlp8aAfXWKs/IhmOyyXXLaquE37ARVczNAg=="/>
         </item>
     </channel>
 </rss>
