@@ -3,6 +3,23 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.29</title>
+            <pubDate>Fri, 25 Sep 2026 13:11:09 -0500</pubDate>
+            <sparkle:version>78</sparkle:version>
+            <sparkle:shortVersionString>0.1.29</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- With "Pause media during recording" on, Rhino no longer starts music or
+  videos you had paused yourself. It used to guess what was playing from
+  background audio activity, which could restart a paused browser tab or
+  Music after you finished dictating. Rhino now resumes playback only when
+  it actually paused Music or Spotify for that recording.
+- Browser media (YouTube and similar) still pauses while you dictate, but no
+  longer resumes on its own afterward — press play when you're ready.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.29/Rhino-0.1.29.dmg" length="15956034" type="application/octet-stream" sparkle:edSignature="oxTqf1Aa5eOnM41ZZsim2qhHffLn8haQywidaYb5YGkBdlcaQFQAqwfmxtCHXcZkI8pdVfBLnOwBh9zolmtsDg=="/>
+        </item>
+        <item>
             <title>0.1.28</title>
             <pubDate>Thu, 24 Sep 2026 10:25:29 -0500</pubDate>
             <sparkle:version>77</sparkle:version>
@@ -39,22 +56,6 @@
   start another recording.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.27/Rhino-0.1.27.dmg" length="15997398" type="application/octet-stream" sparkle:edSignature="xq0FyBuCVaLECaG3jFEFcJjjalgRcD5Lxr/TimzHN7qaNHT3bfmD5kR7nRhWLcM+XYn46ACT1wxVTyrDl7NmAg=="/>
-        </item>
-        <item>
-            <title>0.1.26</title>
-            <pubDate>Tue, 22 Sep 2026 23:37:39 -0500</pubDate>
-            <sparkle:version>75</sparkle:version>
-            <sparkle:shortVersionString>0.1.26</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- If you run a clipboard manager like Maccy, your dictations no longer pile
-  up in its history. With "Copy to clipboard" off, Rhino only borrows the
-  clipboard for about a second to paste, and fast clipboard managers could
-  grab the text in that window. The borrowed text is now marked as
-  temporary, the standard signal clipboard managers use to skip an entry.
-  Anything you copy yourself still shows up in history as before.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.26/Rhino-0.1.26.dmg" length="15945963" type="application/octet-stream" sparkle:edSignature="jsU73PBGQXCUj6pCggHCP6dLwadvxJflPqWJw753mAb3xSxC//+8lvuRtHM72oQjj6IN283UYCByrV+/7NQAAQ=="/>
         </item>
     </channel>
 </rss>
