@@ -3,6 +3,28 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.30</title>
+            <pubDate>Fri, 25 Sep 2026 13:36:16 -0500</pubDate>
+            <sparkle:version>79</sparkle:version>
+            <sparkle:shortVersionString>0.1.30</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Teaching Rhino a word is easier. Rule editing now opens right inside the
+  Dictionary card instead of a popup that could get cut off, asks for the
+  correct spelling first, and makes the "Rhino hears it as" spelling
+  optional. Empty rules are cleaned up automatically.
+- New "Fix sound-alikes" setting (on by default): a word you add also fixes
+  near-miss spellings of it — add "Klaviyo" and "Clavio" or "Claviyo" get
+  fixed too, without listing them. Real words are never changed, so "Stripe"
+  won't touch "strip".
+- Your dictionary now runs again after AI cleanup, so cleanup can no longer
+  undo a spelling you fixed.
+- "Fix a word" in History: pick a misheard word in a past transcript and
+  teach Rhino the right spelling on the spot.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.30/Rhino-0.1.30.dmg" length="16046760" type="application/octet-stream" sparkle:edSignature="oWYk8iM5a3qnSF0FpvfOxSdb4eBgl0KKOVupRAj3ZBl6q3RCpu1ERmF/IxPuqGkkyzMjvLgopSdojxPNL82eDw=="/>
+        </item>
+        <item>
             <title>0.1.29</title>
             <pubDate>Fri, 25 Sep 2026 13:11:09 -0500</pubDate>
             <sparkle:version>78</sparkle:version>
@@ -40,22 +62,6 @@
   music, podcast and video players.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.28/Rhino-0.1.28.dmg" length="15963389" type="application/octet-stream" sparkle:edSignature="b3hx2b/TbK7M3M4jEXujy/O5SnrBu6S4DdvIUVcAGhR95wR/YRlYPC4maD/+vh4bpY7YZa+eEcU2HkCqfYaeAA=="/>
-        </item>
-        <item>
-            <title>0.1.27</title>
-            <pubDate>Wed, 23 Sep 2026 23:53:13 -0500</pubDate>
-            <sparkle:version>76</sparkle:version>
-            <sparkle:shortVersionString>0.1.27</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Happy Rhino Day! Give three friends Rhino Voice for free through AppSumo
-  with coupon `rhinofree`. Open “Give 3 friends Rhino for free…” in the menu
-  bar to copy the link and coupon or a ready-to-send invitation.
-- A one-time sharing popup appears after five successful dictations, once
-  Rhino is idle. It leaves your typing focus alone and disappears when you
-  start another recording.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.27/Rhino-0.1.27.dmg" length="15997398" type="application/octet-stream" sparkle:edSignature="xq0FyBuCVaLECaG3jFEFcJjjalgRcD5Lxr/TimzHN7qaNHT3bfmD5kR7nRhWLcM+XYn46ACT1wxVTyrDl7NmAg=="/>
         </item>
     </channel>
 </rss>
