@@ -3,6 +3,27 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.31</title>
+            <pubDate>Fri, 02 Oct 2026 10:54:27 -0500</pubDate>
+            <sparkle:version>80</sparkle:version>
+            <sparkle:shortVersionString>0.1.31</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Dictate punctuation the way you do on your phone. With Smart formatting
+  on, saying "period", "comma", "question mark", "exclamation point",
+  "colon", "new line" or "new paragraph" (with a short pause around it)
+  types the mark or the break instead of the word. Sentences that just
+  mention the words, like "a grace period" or "the word comma", are left
+  alone.
+- English numbers format automatically: “zero point seven two five” becomes
+  “0.725,” and “seven items” becomes “7 items.” No cleanup model or Smart
+  formatting toggle required. Choose Smart, Prefer digits, or Keep as spoken
+  in Settings → Output → Numbers. Everyday phrases stay words: "at that
+  point two people left", "one day", "one more thing", "the one".
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.31/Rhino-0.1.31.dmg" length="16076573" type="application/octet-stream" sparkle:edSignature="OdeQsERj0m52HCI/8+4gJTjWIZN12ceG0o5zKjaHL+SA2+6KpswWxqsNcwvoXkEXTHIuHPg83eRoKOgKq1AuAg=="/>
+        </item>
+        <item>
             <title>0.1.30</title>
             <pubDate>Fri, 25 Sep 2026 13:36:16 -0500</pubDate>
             <sparkle:version>79</sparkle:version>
@@ -40,28 +61,6 @@
   longer resumes on its own afterward — press play when you're ready.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.29/Rhino-0.1.29.dmg" length="15956034" type="application/octet-stream" sparkle:edSignature="oxTqf1Aa5eOnM41ZZsim2qhHffLn8haQywidaYb5YGkBdlcaQFQAqwfmxtCHXcZkI8pdVfBLnOwBh9zolmtsDg=="/>
-        </item>
-        <item>
-            <title>0.1.28</title>
-            <pubDate>Thu, 24 Sep 2026 10:25:29 -0500</pubDate>
-            <sparkle:version>77</sparkle:version>
-            <sparkle:shortVersionString>0.1.28</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Rhino finishes faster after you stop talking. The AI cleanup pass used to
-  re-type your transcript one word-piece at a time; it now guesses ahead
-  from what you said and checks many pieces at once, keeping only what it
-  would have written anyway. In a local benchmark a 77-word dictation
-  dropped from 1.3 seconds to 0.44 and a 249-word one from 4.3 seconds to
-  0.74. The first dictation after Rhino has been idle is quicker too. The
-  wording of your transcripts is unchanged.
-- With "Pause media during recording" on, Rhino no longer starts music you
-  had paused yourself. Some apps keep a silent audio stream open in the
-  background, which Rhino mistook for playing media and then "resumed" after
-  dictating. Rhino now only resumes known media apps like browsers and
-  music, podcast and video players.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.28/Rhino-0.1.28.dmg" length="15963389" type="application/octet-stream" sparkle:edSignature="b3hx2b/TbK7M3M4jEXujy/O5SnrBu6S4DdvIUVcAGhR95wR/YRlYPC4maD/+vh4bpY7YZa+eEcU2HkCqfYaeAA=="/>
         </item>
     </channel>
 </rss>
