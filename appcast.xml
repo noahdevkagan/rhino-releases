@@ -3,6 +3,44 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.34</title>
+            <pubDate>Mon, 05 Oct 2026 22:12:08 +0000</pubDate>
+            <sparkle:version>83</sparkle:version>
+            <sparkle:shortVersionString>0.1.34</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Faster dictation with cleanup on: ordinary sentences are now inserted as soon
+  as they're recognized. The cleanup model runs only when there is something to
+  format — an email or message, a list, or "new line" / "new paragraph". Turn
+  this off under Settings → Output → Cleanup to clean up every dictation
+  (English; other languages are unchanged).
+- Cleanup can no longer silently delete a sentence or replace your words with
+  a drafted reply: when its output drops or invents too much, Rhino keeps the
+  transcript as spoken.
+- "Thanks a million" and "Million Dollar Weekend" stay as words instead of
+  becoming 1,000,000.
+- Parakeet no longer uses dictionary "Boost recognition", which could drop
+  whole sentences. The dictionary still fixes your names and terms. The toggle
+  remains for Whisper.
+- Dictations into Conductor are inserted as spoken, like Claude and ChatGPT.
+- Fix missed spoken "period" commands after common sentence endings, such as
+  "see you there period" and "thanks for reporting this period", with Smart
+  formatting on. Spaced or repeated punctuation around a command is consumed
+  once, preventing extra full stops. Literal phrases such as "billing period"
+  stay intact.
+- Drop MP4 videos into Rhino to transcribe their audio entirely on-device.
+  History keeps the extracted audio, without storing a copy of the video.
+- Fixed a launch crash loop after an audio import was interrupted. Interrupted
+  recordings now show a failure with a manual retry option in History.
+- Hardened Parakeet audio imports so unreadable files report an error instead
+  of using the conversion path implicated in M4A crashes.
+- The Rhino Unlimited window is easier to read: the "Get Unlimited" button is
+  always highlighted, even while you're working in another app, and the
+  window is more compact.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.34/Rhino-0.1.34.dmg" length="16352684" type="application/octet-stream" sparkle:edSignature="Xtorno4jJtBH3kDWkRxXr3y7ilk9mbkDEvFZtYRVh6HCJU0GWH8L0KT+LfiJLvLU4r5pDXhUTTRHfj4WyiXXBg=="/>
+        </item>
+        <item>
             <title>0.1.33</title>
             <pubDate>Sun, 04 Oct 2026 22:00:14 -0500</pubDate>
             <sparkle:version>82</sparkle:version>
@@ -30,27 +68,6 @@
   this version stays unlimited automatically.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.32/Rhino-0.1.32.dmg" length="16499507" type="application/octet-stream" sparkle:edSignature="angf3w4BrOMu0LVr+kfEypbG6UsyXMBSC0jajbvAaVx2W0JKamYMZfyB2FcvmrMYzUoJS0cOuNxLokLyT89vAQ=="/>
-        </item>
-        <item>
-            <title>0.1.31</title>
-            <pubDate>Fri, 02 Oct 2026 10:54:27 -0500</pubDate>
-            <sparkle:version>80</sparkle:version>
-            <sparkle:shortVersionString>0.1.31</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Dictate punctuation the way you do on your phone. With Smart formatting
-  on, saying "period", "comma", "question mark", "exclamation point",
-  "colon", "new line" or "new paragraph" (with a short pause around it)
-  types the mark or the break instead of the word. Sentences that just
-  mention the words, like "a grace period" or "the word comma", are left
-  alone.
-- English numbers format automatically: “zero point seven two five” becomes
-  “0.725,” and “seven items” becomes “7 items.” No cleanup model or Smart
-  formatting toggle required. Choose Smart, Prefer digits, or Keep as spoken
-  in Settings → Output → Numbers. Everyday phrases stay words: "at that
-  point two people left", "one day", "one more thing", "the one".
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.31/Rhino-0.1.31.dmg" length="16076573" type="application/octet-stream" sparkle:edSignature="OdeQsERj0m52HCI/8+4gJTjWIZN12ceG0o5zKjaHL+SA2+6KpswWxqsNcwvoXkEXTHIuHPg83eRoKOgKq1AuAg=="/>
         </item>
     </channel>
 </rss>
