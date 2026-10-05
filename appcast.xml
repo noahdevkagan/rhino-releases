@@ -3,6 +3,22 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.32</title>
+            <pubDate>Sun, 04 Oct 2026 21:44:23 -0500</pubDate>
+            <sparkle:version>81</sparkle:version>
+            <sparkle:shortVersionString>0.1.32</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Rhino is now free to download. New installs get unlimited dictation for
+  their first week, then 2,000 words a week free, every week. Unlimited is
+  $20 once: choose Get Rhino Unlimited in the menu bar and enter the code
+  from your purchase or your AppSumo code.
+- Already using Rhino? Nothing changes for you. Every install set up before
+  this version stays unlimited automatically.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.32/Rhino-0.1.32.dmg" length="16499507" type="application/octet-stream" sparkle:edSignature="angf3w4BrOMu0LVr+kfEypbG6UsyXMBSC0jajbvAaVx2W0JKamYMZfyB2FcvmrMYzUoJS0cOuNxLokLyT89vAQ=="/>
+        </item>
+        <item>
             <title>0.1.31</title>
             <pubDate>Fri, 02 Oct 2026 10:54:27 -0500</pubDate>
             <sparkle:version>80</sparkle:version>
@@ -44,23 +60,6 @@
   teach Rhino the right spelling on the spot.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.30/Rhino-0.1.30.dmg" length="16046760" type="application/octet-stream" sparkle:edSignature="oWYk8iM5a3qnSF0FpvfOxSdb4eBgl0KKOVupRAj3ZBl6q3RCpu1ERmF/IxPuqGkkyzMjvLgopSdojxPNL82eDw=="/>
-        </item>
-        <item>
-            <title>0.1.29</title>
-            <pubDate>Fri, 25 Sep 2026 13:11:09 -0500</pubDate>
-            <sparkle:version>78</sparkle:version>
-            <sparkle:shortVersionString>0.1.29</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- With "Pause media during recording" on, Rhino no longer starts music or
-  videos you had paused yourself. It used to guess what was playing from
-  background audio activity, which could restart a paused browser tab or
-  Music after you finished dictating. Rhino now resumes playback only when
-  it actually paused Music or Spotify for that recording.
-- Browser media (YouTube and similar) still pauses while you dictate, but no
-  longer resumes on its own afterward — press play when you're ready.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.29/Rhino-0.1.29.dmg" length="15956034" type="application/octet-stream" sparkle:edSignature="oxTqf1Aa5eOnM41ZZsim2qhHffLn8haQywidaYb5YGkBdlcaQFQAqwfmxtCHXcZkI8pdVfBLnOwBh9zolmtsDg=="/>
         </item>
     </channel>
 </rss>
