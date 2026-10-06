@@ -3,6 +3,22 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.35</title>
+            <pubDate>Tue, 06 Oct 2026 17:24:45 +0000</pubDate>
+            <sparkle:version>84</sparkle:version>
+            <sparkle:shortVersionString>0.1.35</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Get Rhino Unlimited free by inviting 2 friends. Click "Get Unlimited free"
+  in the sidebar or "Get Rhino Unlimited for free" in the menu bar (also
+  offered when your free words run out), and send your personal link. When 2
+  friends get Rhino through it, your invite page gives you a one-click
+  unlock. Friends can get Rhino free on AppSumo or download the free version.
+- The share popup no longer appears on its own after a few dictations.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.35/Rhino-0.1.35.dmg" length="16359246" type="application/octet-stream" sparkle:edSignature="QurPtPoZYzEaDT7LfJqnPtMTdHdu3CbDS7pJjsCZh2iYbuY6cYZfecnrOck2cPbThqaOWeuCUeh/cjj2mNDrBA=="/>
+        </item>
+        <item>
             <title>0.1.34</title>
             <pubDate>Mon, 05 Oct 2026 22:12:08 +0000</pubDate>
             <sparkle:version>83</sparkle:version>
@@ -52,22 +68,6 @@
   copy or type.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.33/Rhino-0.1.33.dmg" length="16503861" type="application/octet-stream" sparkle:edSignature="41w1cwO6jaYxPG30fV/BVb//KkgZEfJGEm0pmCxTsiDYQaH5AT+aEJYwXrnUpaVEsu4ybKh0X4lfxjeGZ12WBA=="/>
-        </item>
-        <item>
-            <title>0.1.32</title>
-            <pubDate>Sun, 04 Oct 2026 21:44:23 -0500</pubDate>
-            <sparkle:version>81</sparkle:version>
-            <sparkle:shortVersionString>0.1.32</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Rhino is now free to download. New installs get unlimited dictation for
-  their first week, then 2,000 words a week free, every week. Unlimited is
-  $20 once: choose Get Rhino Unlimited in the menu bar and enter the code
-  from your purchase or your AppSumo code.
-- Already using Rhino? Nothing changes for you. Every install set up before
-  this version stays unlimited automatically.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.32/Rhino-0.1.32.dmg" length="16499507" type="application/octet-stream" sparkle:edSignature="angf3w4BrOMu0LVr+kfEypbG6UsyXMBSC0jajbvAaVx2W0JKamYMZfyB2FcvmrMYzUoJS0cOuNxLokLyT89vAQ=="/>
         </item>
     </channel>
 </rss>
