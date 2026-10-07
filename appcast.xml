@@ -3,6 +3,23 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.36</title>
+            <pubDate>Wed, 07 Oct 2026 03:38:49 +0000</pubDate>
+            <sparkle:version>85</sparkle:version>
+            <sparkle:shortVersionString>0.1.36</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- The dictation bubble opens at its final size instead of flashing a wide empty
+  bar. Cursor placement settles before it appears, so a slow caret lookup no
+  longer makes it jump across the screen.
+- Saying "period" at the end of a sentence now ends it, even without a pause:
+  "I had salmon for dinner period" types "I had salmon for dinner." instead
+  of "dinner, period." Phrases like "billing period" or "the Jurassic period"
+  keep the word.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.36/Rhino-0.1.36.dmg" length="16383820" type="application/octet-stream" sparkle:edSignature="45i/hybfDgU+JCbUzMtiHDsyUFhKMf3O37cujF0IRtK92mAjv/KbfC0GV2OqZCV/1p44S8LXYCl+eYIWwujKAg=="/>
+        </item>
+        <item>
             <title>0.1.35</title>
             <pubDate>Tue, 06 Oct 2026 17:24:45 +0000</pubDate>
             <sparkle:version>84</sparkle:version>
@@ -55,19 +72,6 @@
   window is more compact.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.34/Rhino-0.1.34.dmg" length="16352684" type="application/octet-stream" sparkle:edSignature="Xtorno4jJtBH3kDWkRxXr3y7ilk9mbkDEvFZtYRVh6HCJU0GWH8L0KT+LfiJLvLU4r5pDXhUTTRHfj4WyiXXBg=="/>
-        </item>
-        <item>
-            <title>0.1.33</title>
-            <pubDate>Sun, 04 Oct 2026 22:00:14 -0500</pubDate>
-            <sparkle:version>82</sparkle:version>
-            <sparkle:shortVersionString>0.1.33</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- One-click unlock. After buying Rhino or redeeming an AppSumo code, click
-  Unlock Rhino on the website and Rhino opens already unlimited. No code to
-  copy or type.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.33/Rhino-0.1.33.dmg" length="16503861" type="application/octet-stream" sparkle:edSignature="41w1cwO6jaYxPG30fV/BVb//KkgZEfJGEm0pmCxTsiDYQaH5AT+aEJYwXrnUpaVEsu4ybKh0X4lfxjeGZ12WBA=="/>
         </item>
     </channel>
 </rss>
