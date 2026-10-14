@@ -3,6 +3,27 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.38</title>
+            <pubDate>Wed, 14 Oct 2026 02:30:44 +0000</pubDate>
+            <sparkle:version>87</sparkle:version>
+            <sparkle:shortVersionString>0.1.38</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Numbers → Prefer digits now covers spoken times ("ten thirty" → 10:30),
+  years ("twenty twenty five" → 2025), phone-number digit runs, "a hundred
+  people" → 100 people, "fifteen hundred" → 1500, and date ordinals ("the
+  twenty-first of October" → the 21st of October). Smart is unchanged.
+- Live dictation captions expand correctly instead of appearing cropped inside
+  a small black box. Larger text also keeps the Stop and Cancel buttons visible.
+- Dictionary sound-alike matching catches more split brand names, such as
+  "ads viser" for "Adzviser". Taught spellings also tolerate spacing changes.
+- Add dictionary words in bulk: paste a list or two spreadsheet columns, review
+  the spellings and optional mishearings, and save them together. Existing
+  corrections are kept and duplicate entries are skipped.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.38/Rhino-0.1.38.dmg" length="16485095" type="application/octet-stream" sparkle:edSignature="BIuq/oggKyLuSdKYUbr/sNMCl3QCCdptKKU0xIFLndHGnbw7yCCNfKzFnqgq1bu12lggEKa/UDl7nEw4FcTuBA=="/>
+        </item>
+        <item>
             <title>0.1.37</title>
             <pubDate>Thu, 08 Oct 2026 14:28:30 +0000</pubDate>
             <sparkle:version>86</sparkle:version>
@@ -30,22 +51,6 @@
   keep the word.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.36/Rhino-0.1.36.dmg" length="16383820" type="application/octet-stream" sparkle:edSignature="45i/hybfDgU+JCbUzMtiHDsyUFhKMf3O37cujF0IRtK92mAjv/KbfC0GV2OqZCV/1p44S8LXYCl+eYIWwujKAg=="/>
-        </item>
-        <item>
-            <title>0.1.35</title>
-            <pubDate>Tue, 06 Oct 2026 17:24:45 +0000</pubDate>
-            <sparkle:version>84</sparkle:version>
-            <sparkle:shortVersionString>0.1.35</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Get Rhino Unlimited free by inviting 2 friends. Click "Get Unlimited free"
-  in the sidebar or "Get Rhino Unlimited for free" in the menu bar (also
-  offered when your free words run out), and send your personal link. When 2
-  friends get Rhino through it, your invite page gives you a one-click
-  unlock. Friends can get Rhino free on AppSumo or download the free version.
-- The share popup no longer appears on its own after a few dictations.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.35/Rhino-0.1.35.dmg" length="16359246" type="application/octet-stream" sparkle:edSignature="QurPtPoZYzEaDT7LfJqnPtMTdHdu3CbDS7pJjsCZh2iYbuY6cYZfecnrOck2cPbThqaOWeuCUeh/cjj2mNDrBA=="/>
         </item>
     </channel>
 </rss>
