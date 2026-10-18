@@ -3,6 +3,20 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.39</title>
+            <pubDate>Sun, 18 Oct 2026 21:33:34 +0000</pubDate>
+            <sparkle:version>88</sparkle:version>
+            <sparkle:shortVersionString>0.1.39</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Transcripts of imported audio and video files can now include timestamps.
+  Turn on Settings → Output → Imported files → Include timestamps, and each
+  line starts with its time range in the recording. It's off by default, and
+  dictation is unchanged.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.39/Rhino-0.1.39.dmg" length="16492859" type="application/octet-stream" sparkle:edSignature="LWxz+zVAtkrPVpmsshHsxILp1ItxRVqWCbVG+oq5dehDYpayxI5Aeu0l5AXerVLREjfxCQcK2IPa43r8vz7GAQ=="/>
+        </item>
+        <item>
             <title>0.1.38</title>
             <pubDate>Wed, 14 Oct 2026 02:30:44 +0000</pubDate>
             <sparkle:version>87</sparkle:version>
@@ -34,23 +48,6 @@
   cursor location, instead of appearing at a screen corner.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.37/Rhino-0.1.37.dmg" length="16383787" type="application/octet-stream" sparkle:edSignature="gBPHEDu0MACeTf7w1SzrYtPm3hEkOpZyOP+UaJT0lGgqeCo6LlVlEM/saH4aNhV2H7578JF+VaICh4GK6wUjBg=="/>
-        </item>
-        <item>
-            <title>0.1.36</title>
-            <pubDate>Wed, 07 Oct 2026 03:38:49 +0000</pubDate>
-            <sparkle:version>85</sparkle:version>
-            <sparkle:shortVersionString>0.1.36</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- The dictation bubble opens at its final size instead of flashing a wide empty
-  bar. Cursor placement settles before it appears, so a slow caret lookup no
-  longer makes it jump across the screen.
-- Saying "period" at the end of a sentence now ends it, even without a pause:
-  "I had salmon for dinner period" types "I had salmon for dinner." instead
-  of "dinner, period." Phrases like "billing period" or "the Jurassic period"
-  keep the word.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.36/Rhino-0.1.36.dmg" length="16383820" type="application/octet-stream" sparkle:edSignature="45i/hybfDgU+JCbUzMtiHDsyUFhKMf3O37cujF0IRtK92mAjv/KbfC0GV2OqZCV/1p44S8LXYCl+eYIWwujKAg=="/>
         </item>
     </channel>
 </rss>
