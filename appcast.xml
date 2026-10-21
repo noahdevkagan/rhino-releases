@@ -3,6 +3,20 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.40</title>
+            <pubDate>Wed, 21 Oct 2026 15:01:19 +0000</pubDate>
+            <sparkle:version>89</sparkle:version>
+            <sparkle:shortVersionString>0.1.40</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- AI cleanup is now on by default, and Settings → Output → Cleanup is down to three simple controls. After a few dictations, or the first time you dictate a list or an email, Home offers a one-click download of the cleanup model.
+- Double-tapping the dictation key no longer makes the bubble pop up, vanish and reappear. A quick double-tap now locks hands-free dictation on the same take.
+- Clicking Download on the cleanup model twice, or leaving Home mid-download, no longer starts a second 1 GB download or shows a false error after a good install.
+- Invite links now send friends straight to the free download.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.40/Rhino-0.1.40.dmg" length="16509427" type="application/octet-stream" sparkle:edSignature="rpFZVpVBYnCIHMpkJO+jwn3Ht1tSkhd74czaEl0hA3+aguKNFUhXEBSbhlKo3noBkKwjbD4BjZkTvJj+iOkkDg=="/>
+        </item>
+        <item>
             <title>0.1.39</title>
             <pubDate>Sun, 18 Oct 2026 21:33:34 +0000</pubDate>
             <sparkle:version>88</sparkle:version>
@@ -36,18 +50,6 @@
   corrections are kept and duplicate entries are skipped.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.38/Rhino-0.1.38.dmg" length="16485095" type="application/octet-stream" sparkle:edSignature="BIuq/oggKyLuSdKYUbr/sNMCl3QCCdptKKU0xIFLndHGnbw7yCCNfKzFnqgq1bu12lggEKa/UDl7nEw4FcTuBA=="/>
-        </item>
-        <item>
-            <title>0.1.37</title>
-            <pubDate>Thu, 08 Oct 2026 14:28:30 +0000</pubDate>
-            <sparkle:version>86</sparkle:version>
-            <sparkle:shortVersionString>0.1.37</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- The dictation bubble stays near the mouse when an app reports an invalid text
-  cursor location, instead of appearing at a screen corner.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.37/Rhino-0.1.37.dmg" length="16383787" type="application/octet-stream" sparkle:edSignature="gBPHEDu0MACeTf7w1SzrYtPm3hEkOpZyOP+UaJT0lGgqeCo6LlVlEM/saH4aNhV2H7578JF+VaICh4GK6wUjBg=="/>
         </item>
     </channel>
 </rss>
