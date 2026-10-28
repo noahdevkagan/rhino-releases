@@ -3,6 +3,18 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.41</title>
+            <pubDate>Wed, 28 Oct 2026 04:11:35 +0000</pubDate>
+            <sparkle:version>90</sparkle:version>
+            <sparkle:shortVersionString>0.1.41</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Dictating into the middle of a sentence now fits in: Rhino lowercases the first word (names, "I" and acronyms keep their capitals), skips the period the speech engine adds, and fixes the spacing at the join. Short dictations of one to three words at the start of a field or line, like a number or a name in a spreadsheet cell, no longer get a period either. Say "period" if you want one. This works in apps that let Rhino read the text around the cursor; elsewhere nothing changes.
+- Dictating no longer replaces what you copied. Rhino pastes your words, then puts your previous clipboard back, and clipboard managers like Maccy, Paste and Raycast skip the dictation so it stays out of your history. To keep each dictation on the clipboard instead, turn on Settings > Output > Delivery > Copy to clipboard. If you turned it on yourself before, it stays on.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.41/Rhino-0.1.41.dmg" length="16525626" type="application/octet-stream" sparkle:edSignature="r2XYqgNcyXXm9XJzUQLvFr1ReFYrZ7pbagbxAtL8p8DnKkjmKOa7BhY21No0PaRyR0wiJ98hAY6wosFACTeHDA=="/>
+        </item>
+        <item>
             <title>0.1.40</title>
             <pubDate>Wed, 21 Oct 2026 15:01:19 +0000</pubDate>
             <sparkle:version>89</sparkle:version>
@@ -29,27 +41,6 @@
   dictation is unchanged.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.39/Rhino-0.1.39.dmg" length="16492859" type="application/octet-stream" sparkle:edSignature="LWxz+zVAtkrPVpmsshHsxILp1ItxRVqWCbVG+oq5dehDYpayxI5Aeu0l5AXerVLREjfxCQcK2IPa43r8vz7GAQ=="/>
-        </item>
-        <item>
-            <title>0.1.38</title>
-            <pubDate>Wed, 14 Oct 2026 02:30:44 +0000</pubDate>
-            <sparkle:version>87</sparkle:version>
-            <sparkle:shortVersionString>0.1.38</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Numbers → Prefer digits now covers spoken times ("ten thirty" → 10:30),
-  years ("twenty twenty five" → 2025), phone-number digit runs, "a hundred
-  people" → 100 people, "fifteen hundred" → 1500, and date ordinals ("the
-  twenty-first of October" → the 21st of October). Smart is unchanged.
-- Live dictation captions expand correctly instead of appearing cropped inside
-  a small black box. Larger text also keeps the Stop and Cancel buttons visible.
-- Dictionary sound-alike matching catches more split brand names, such as
-  "ads viser" for "Adzviser". Taught spellings also tolerate spacing changes.
-- Add dictionary words in bulk: paste a list or two spreadsheet columns, review
-  the spellings and optional mishearings, and save them together. Existing
-  corrections are kept and duplicate entries are skipped.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.38/Rhino-0.1.38.dmg" length="16485095" type="application/octet-stream" sparkle:edSignature="BIuq/oggKyLuSdKYUbr/sNMCl3QCCdptKKU0xIFLndHGnbw7yCCNfKzFnqgq1bu12lggEKa/UDl7nEw4FcTuBA=="/>
         </item>
     </channel>
 </rss>
