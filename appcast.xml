@@ -3,6 +3,18 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.42</title>
+            <pubDate>Wed, 28 Oct 2026 21:58:31 +0000</pubDate>
+            <sparkle:version>91</sparkle:version>
+            <sparkle:shortVersionString>0.1.42</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- New: Settings → Output → Capitals → Sentence case. Turn it off and dictations go in lowercase without a closing period, ready to drop into the middle of a sentence, including in Gmail, Google Docs and other web apps where Rhino can't see the text around your cursor. Names, "I" and questions keep their capitals and question marks, and saying "period" still adds one.
+- Brit mode: turn on Settings → Output → Language → Brit mode and English dictations come out as colour, organise, centre and travelled instead of color, organize, center and traveled, and "Hi, Steve" or "Thanks, Steve" become "Hi Steve" and "Thanks Steve". Names like Pearl Harbor stay as they are, and so do your dictionary words. It's on already if your Mac's region is the UK, Ireland, Australia, New Zealand or South Africa.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.42/Rhino-0.1.42.dmg" length="16545575" type="application/octet-stream" sparkle:edSignature="cO81FgGs/pNu9eemLKRSn8Ezr3tKaiHL0Hjp2i8IkWROb+/La7VxQo3z/+8cTImYWj4Q5I+kKvCdROmcE6cmDA=="/>
+        </item>
+        <item>
             <title>0.1.41</title>
             <pubDate>Wed, 28 Oct 2026 04:11:35 +0000</pubDate>
             <sparkle:version>90</sparkle:version>
@@ -27,20 +39,6 @@
 - Invite links now send friends straight to the free download.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.40/Rhino-0.1.40.dmg" length="16509427" type="application/octet-stream" sparkle:edSignature="rpFZVpVBYnCIHMpkJO+jwn3Ht1tSkhd74czaEl0hA3+aguKNFUhXEBSbhlKo3noBkKwjbD4BjZkTvJj+iOkkDg=="/>
-        </item>
-        <item>
-            <title>0.1.39</title>
-            <pubDate>Sun, 18 Oct 2026 21:33:34 +0000</pubDate>
-            <sparkle:version>88</sparkle:version>
-            <sparkle:shortVersionString>0.1.39</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Transcripts of imported audio and video files can now include timestamps.
-  Turn on Settings → Output → Imported files → Include timestamps, and each
-  line starts with its time range in the recording. It's off by default, and
-  dictation is unchanged.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.39/Rhino-0.1.39.dmg" length="16492859" type="application/octet-stream" sparkle:edSignature="LWxz+zVAtkrPVpmsshHsxILp1ItxRVqWCbVG+oq5dehDYpayxI5Aeu0l5AXerVLREjfxCQcK2IPa43r8vz7GAQ=="/>
         </item>
     </channel>
 </rss>
