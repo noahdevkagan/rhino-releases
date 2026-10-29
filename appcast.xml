@@ -3,6 +3,17 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.43</title>
+            <pubDate>Thu, 29 Oct 2026 11:03:15 +0000</pubDate>
+            <sparkle:version>92</sparkle:version>
+            <sparkle:shortVersionString>0.1.43</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Dictating into Chrome works every time again. Since 0.1.41, a busy page such as claude.ai could take the paste after Rhino had already put your previous clipboard back, so your old clipboard got pasted instead of your words. Rhino now waits until the app has taken your words before it puts the clipboard back.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.43/Rhino-0.1.43.dmg" length="16562283" type="application/octet-stream" sparkle:edSignature="daoOIT4YHnLHvu8d0fsGgd5yzoOK7+2Om2mGYjZ2YigzaJitaq6D7PbSjrHusiH//x0ds5BdyJazBm+5bgg0Bg=="/>
+        </item>
+        <item>
             <title>0.1.42</title>
             <pubDate>Wed, 28 Oct 2026 21:58:31 +0000</pubDate>
             <sparkle:version>91</sparkle:version>
@@ -25,20 +36,6 @@
 - Dictating no longer replaces what you copied. Rhino pastes your words, then puts your previous clipboard back, and clipboard managers like Maccy, Paste and Raycast skip the dictation so it stays out of your history. To keep each dictation on the clipboard instead, turn on Settings > Output > Delivery > Copy to clipboard. If you turned it on yourself before, it stays on.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.41/Rhino-0.1.41.dmg" length="16525626" type="application/octet-stream" sparkle:edSignature="r2XYqgNcyXXm9XJzUQLvFr1ReFYrZ7pbagbxAtL8p8DnKkjmKOa7BhY21No0PaRyR0wiJ98hAY6wosFACTeHDA=="/>
-        </item>
-        <item>
-            <title>0.1.40</title>
-            <pubDate>Wed, 21 Oct 2026 15:01:19 +0000</pubDate>
-            <sparkle:version>89</sparkle:version>
-            <sparkle:shortVersionString>0.1.40</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- AI cleanup is now on by default, and Settings → Output → Cleanup is down to three simple controls. After a few dictations, or the first time you dictate a list or an email, Home offers a one-click download of the cleanup model.
-- Double-tapping the dictation key no longer makes the bubble pop up, vanish and reappear. A quick double-tap now locks hands-free dictation on the same take.
-- Clicking Download on the cleanup model twice, or leaving Home mid-download, no longer starts a second 1 GB download or shows a false error after a good install.
-- Invite links now send friends straight to the free download.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.40/Rhino-0.1.40.dmg" length="16509427" type="application/octet-stream" sparkle:edSignature="rpFZVpVBYnCIHMpkJO+jwn3Ht1tSkhd74czaEl0hA3+aguKNFUhXEBSbhlKo3noBkKwjbD4BjZkTvJj+iOkkDg=="/>
         </item>
     </channel>
 </rss>
