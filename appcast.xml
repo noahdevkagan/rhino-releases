@@ -3,6 +3,18 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.46</title>
+            <pubDate>Tue, 10 Nov 2026 04:36:39 +0000</pubDate>
+            <sparkle:version>95</sparkle:version>
+            <sparkle:shortVersionString>0.1.46</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Copy something, dictate, then press ⌘V and you get what you copied, not your dictation a second time. Rhino now puts your clipboard back the moment you paste, without making you wait 5 seconds first.
+- Long dictated messages are split into a greeting line, paragraphs and a sign-off instead of landing as one block.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.46/Rhino-0.1.46.dmg" length="16579550" type="application/octet-stream" sparkle:edSignature="JT9a2CslL4afxDWp+Ex/+WENolVXZDZ49gLJ2E6vU/5FKbdEvcaMoAYNh7GSHHicMVZYKcUtaRZ79NVazFCEAQ=="/>
+        </item>
+        <item>
             <title>0.1.45</title>
             <pubDate>Thu, 05 Nov 2026 22:38:16 +0000</pubDate>
             <sparkle:version>94</sparkle:version>
@@ -24,17 +36,6 @@
 - With "Pause media during recording" on, YouTube in Chrome now picks back up after you dictate instead of staying paused. It stays paused, as before, if two tabs were playing, if Music or Spotify was also playing, or if Chrome isn't in English.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.44/Rhino-0.1.44.dmg" length="16566879" type="application/octet-stream" sparkle:edSignature="JUjRUuy4Bve3MvRMllG1tEmgVHvNw4jFVNFmxCA0rCnEyoowDCY6vrp4cjqMimfvaRyT4psjuZ7l6nsnl0AJAw=="/>
-        </item>
-        <item>
-            <title>0.1.43</title>
-            <pubDate>Thu, 29 Oct 2026 11:03:15 +0000</pubDate>
-            <sparkle:version>92</sparkle:version>
-            <sparkle:shortVersionString>0.1.43</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Dictating into Chrome works every time again. Since 0.1.41, a busy page such as claude.ai could take the paste after Rhino had already put your previous clipboard back, so your old clipboard got pasted instead of your words. Rhino now waits until the app has taken your words before it puts the clipboard back.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.43/Rhino-0.1.43.dmg" length="16562283" type="application/octet-stream" sparkle:edSignature="daoOIT4YHnLHvu8d0fsGgd5yzoOK7+2Om2mGYjZ2YigzaJitaq6D7PbSjrHusiH//x0ds5BdyJazBm+5bgg0Bg=="/>
         </item>
     </channel>
 </rss>
