@@ -3,6 +3,23 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.47</title>
+            <pubDate>Thu, 12 Nov 2026 20:05:43 +0000</pubDate>
+            <sparkle:version>96</sparkle:version>
+            <sparkle:shortVersionString>0.1.47</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Rhino learns your spellings. Dictate a name it gets wrong, fix it right there (Apsumo → AppSumo), and Rhino adds the fix to your dictionary, with an Undo. Turn it off in Settings with “Learn from my fixes”.
+- Snippets: save a phrase like “my calendar link” and say it to drop in the full text, exactly as you saved it.
+- Command Mode (beta): select text, press ⌃⌥⌘C and say what to change (“make this shorter”). Turn it on in Settings.
+- Spoken corrections work mid-sentence: “Ship it Monday, actually no, make that Tuesday” types “Ship it Tuesday.”
+- Cleanup keeps your exact words on short dictations instead of rewording them.
+- With Fn as your trigger, Fn+arrow keys (Page Up, Home and friends) no longer start a dictation.
+- Setup downloads the speech model in one click, then lets you try a first dictation.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.47/Rhino-0.1.47.dmg" length="17706186" type="application/octet-stream" sparkle:edSignature="f3C0n5ABVV2o4mhhS0kQH1gdL0cvlRhbOcUl28825BSFLXKNV4kdOCqKCNiq8TQaqU8wL/xW698LlBlobIEaAw=="/>
+        </item>
+        <item>
             <title>0.1.46</title>
             <pubDate>Tue, 10 Nov 2026 04:36:39 +0000</pubDate>
             <sparkle:version>95</sparkle:version>
@@ -24,18 +41,6 @@
             <description sparkle:format="markdown"><![CDATA[- Dictating into text boxes in Chrome, like a GitHub comment box, no longer stops working after the first dictation. Rhino now writes your words to the clipboard right away and puts your previous clipboard back 5 seconds later, so a ⌘V of your own in those 5 seconds pastes the dictation.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.45/Rhino-0.1.45.dmg" length="16566780" type="application/octet-stream" sparkle:edSignature="JV5NFU2kbCkuI8Pi+vCA2eDYyHAD2P15WmcP/RIM6fEvUgh1oxOEToNqFlqR6G7fZzHcBK0FU/14kMss8zNEAA=="/>
-        </item>
-        <item>
-            <title>0.1.44</title>
-            <pubDate>Wed, 04 Nov 2026 22:58:57 +0000</pubDate>
-            <sparkle:version>93</sparkle:version>
-            <sparkle:shortVersionString>0.1.44</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Rhino uses much less memory when you're not dictating. Whisper models now leave memory after 5 idle minutes and reload when you start recording, and the AI cleanup model waits for your first recording instead of loading at launch.
-- With "Pause media during recording" on, YouTube in Chrome now picks back up after you dictate instead of staying paused. It stays paused, as before, if two tabs were playing, if Music or Spotify was also playing, or if Chrome isn't in English.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.44/Rhino-0.1.44.dmg" length="16566879" type="application/octet-stream" sparkle:edSignature="JUjRUuy4Bve3MvRMllG1tEmgVHvNw4jFVNFmxCA0rCnEyoowDCY6vrp4cjqMimfvaRyT4psjuZ7l6nsnl0AJAw=="/>
         </item>
     </channel>
 </rss>
