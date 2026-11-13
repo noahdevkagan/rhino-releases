@@ -3,6 +3,18 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.49</title>
+            <pubDate>Fri, 13 Nov 2026 19:53:15 +0000</pubDate>
+            <sparkle:version>98</sparkle:version>
+            <sparkle:shortVersionString>0.1.49</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Fixed dictation sometimes flashing on and off without typing anything when you press Fn.
+- Rhino now learns any word you fix, not just names. Correct a misspelling like kubernets → kubernetes and it goes in your dictionary, with an Undo.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.49/Rhino-0.1.49.dmg" length="17701634" type="application/octet-stream" sparkle:edSignature="P/wag7GKn20c5vCJ1Lm1ZPgUKvZTh5/J+2geYezK0c/Y0TW0uTINuYp2tk0MdKQfx4yrdWiKkM18n85mTsLlAg=="/>
+        </item>
+        <item>
             <title>0.1.48</title>
             <pubDate>Fri, 13 Nov 2026 04:15:47 +0000</pubDate>
             <sparkle:version>97</sparkle:version>
@@ -29,18 +41,6 @@
 - Setup downloads the speech model in one click, then lets you try a first dictation.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.47/Rhino-0.1.47.dmg" length="17706186" type="application/octet-stream" sparkle:edSignature="f3C0n5ABVV2o4mhhS0kQH1gdL0cvlRhbOcUl28825BSFLXKNV4kdOCqKCNiq8TQaqU8wL/xW698LlBlobIEaAw=="/>
-        </item>
-        <item>
-            <title>0.1.46</title>
-            <pubDate>Tue, 10 Nov 2026 04:36:39 +0000</pubDate>
-            <sparkle:version>95</sparkle:version>
-            <sparkle:shortVersionString>0.1.46</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Copy something, dictate, then press ⌘V and you get what you copied, not your dictation a second time. Rhino now puts your clipboard back the moment you paste, without making you wait 5 seconds first.
-- Long dictated messages are split into a greeting line, paragraphs and a sign-off instead of landing as one block.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.46/Rhino-0.1.46.dmg" length="16579550" type="application/octet-stream" sparkle:edSignature="JT9a2CslL4afxDWp+Ex/+WENolVXZDZ49gLJ2E6vU/5FKbdEvcaMoAYNh7GSHHicMVZYKcUtaRZ79NVazFCEAQ=="/>
         </item>
     </channel>
 </rss>
