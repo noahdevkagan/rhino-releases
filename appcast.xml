@@ -3,6 +3,17 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.48</title>
+            <pubDate>Fri, 13 Nov 2026 04:15:47 +0000</pubDate>
+            <sparkle:version>97</sparkle:version>
+            <sparkle:shortVersionString>0.1.48</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Fixed Rhino getting stuck after you let go of Fn, which made double-tap Fn feel glitchy and Rhino slow to respond.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.48/Rhino-0.1.48.dmg" length="17711777" type="application/octet-stream" sparkle:edSignature="pOGEVGBtvT1PewAqaLV4l78KCOvQvHrWlSSVLsbqol1VyREPTZOvp7Jv08aA6M11TnTEAzY4SPoAujxRAREIBA=="/>
+        </item>
+        <item>
             <title>0.1.47</title>
             <pubDate>Thu, 12 Nov 2026 20:05:43 +0000</pubDate>
             <sparkle:version>96</sparkle:version>
@@ -30,17 +41,6 @@
 - Long dictated messages are split into a greeting line, paragraphs and a sign-off instead of landing as one block.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.46/Rhino-0.1.46.dmg" length="16579550" type="application/octet-stream" sparkle:edSignature="JT9a2CslL4afxDWp+Ex/+WENolVXZDZ49gLJ2E6vU/5FKbdEvcaMoAYNh7GSHHicMVZYKcUtaRZ79NVazFCEAQ=="/>
-        </item>
-        <item>
-            <title>0.1.45</title>
-            <pubDate>Thu, 05 Nov 2026 22:38:16 +0000</pubDate>
-            <sparkle:version>94</sparkle:version>
-            <sparkle:shortVersionString>0.1.45</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Dictating into text boxes in Chrome, like a GitHub comment box, no longer stops working after the first dictation. Rhino now writes your words to the clipboard right away and puts your previous clipboard back 5 seconds later, so a ⌘V of your own in those 5 seconds pastes the dictation.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.45/Rhino-0.1.45.dmg" length="16566780" type="application/octet-stream" sparkle:edSignature="JV5NFU2kbCkuI8Pi+vCA2eDYyHAD2P15WmcP/RIM6fEvUgh1oxOEToNqFlqR6G7fZzHcBK0FU/14kMss8zNEAA=="/>
         </item>
     </channel>
 </rss>
