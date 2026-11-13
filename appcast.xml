@@ -3,6 +3,17 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.50</title>
+            <pubDate>Fri, 13 Nov 2026 22:05:55 +0000</pubDate>
+            <sparkle:version>99</sparkle:version>
+            <sparkle:shortVersionString>0.1.50</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Fn+arrow keys (Page Up, Home and friends) no longer flash the recording bubble.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.50/Rhino-0.1.50.dmg" length="17706014" type="application/octet-stream" sparkle:edSignature="jdhle733fReuPpCElPYc7R5uyFUr8f8Q99b4lX4hk37Ok0n41L2KMyUutpQPJtXBgTGO5kTHzP6ISBT9CmRpDg=="/>
+        </item>
+        <item>
             <title>0.1.49</title>
             <pubDate>Fri, 13 Nov 2026 19:53:15 +0000</pubDate>
             <sparkle:version>98</sparkle:version>
@@ -24,23 +35,6 @@
             <description sparkle:format="markdown"><![CDATA[- Fixed Rhino getting stuck after you let go of Fn, which made double-tap Fn feel glitchy and Rhino slow to respond.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.48/Rhino-0.1.48.dmg" length="17711777" type="application/octet-stream" sparkle:edSignature="pOGEVGBtvT1PewAqaLV4l78KCOvQvHrWlSSVLsbqol1VyREPTZOvp7Jv08aA6M11TnTEAzY4SPoAujxRAREIBA=="/>
-        </item>
-        <item>
-            <title>0.1.47</title>
-            <pubDate>Thu, 12 Nov 2026 20:05:43 +0000</pubDate>
-            <sparkle:version>96</sparkle:version>
-            <sparkle:shortVersionString>0.1.47</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Rhino learns your spellings. Dictate a name it gets wrong, fix it right there (Apsumo → AppSumo), and Rhino adds the fix to your dictionary, with an Undo. Turn it off in Settings with “Learn from my fixes”.
-- Snippets: save a phrase like “my calendar link” and say it to drop in the full text, exactly as you saved it.
-- Command Mode (beta): select text, press ⌃⌥⌘C and say what to change (“make this shorter”). Turn it on in Settings.
-- Spoken corrections work mid-sentence: “Ship it Monday, actually no, make that Tuesday” types “Ship it Tuesday.”
-- Cleanup keeps your exact words on short dictations instead of rewording them.
-- With Fn as your trigger, Fn+arrow keys (Page Up, Home and friends) no longer start a dictation.
-- Setup downloads the speech model in one click, then lets you try a first dictation.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.47/Rhino-0.1.47.dmg" length="17706186" type="application/octet-stream" sparkle:edSignature="f3C0n5ABVV2o4mhhS0kQH1gdL0cvlRhbOcUl28825BSFLXKNV4kdOCqKCNiq8TQaqU8wL/xW698LlBlobIEaAw=="/>
         </item>
     </channel>
 </rss>
