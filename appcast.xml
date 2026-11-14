@@ -3,6 +3,17 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.51</title>
+            <pubDate>Sat, 14 Nov 2026 03:41:41 +0000</pubDate>
+            <sparkle:version>100</sparkle:version>
+            <sparkle:shortVersionString>0.1.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Rhino now learns your spelling fixes in Terminal too, not just in normal text boxes.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.51/Rhino-0.1.51.dmg" length="17715008" type="application/octet-stream" sparkle:edSignature="a4W4p5np+mcEt7sDl2Nq3I3a+g/I8vZgVj2J8FzydS0O8xCokeeoN0aF09BMVN/vs+m2LfXyXURJsCfV7uKSBw=="/>
+        </item>
+        <item>
             <title>0.1.50</title>
             <pubDate>Fri, 13 Nov 2026 22:05:55 +0000</pubDate>
             <sparkle:version>99</sparkle:version>
@@ -24,17 +35,6 @@
 - Rhino now learns any word you fix, not just names. Correct a misspelling like kubernets → kubernetes and it goes in your dictionary, with an Undo.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.49/Rhino-0.1.49.dmg" length="17701634" type="application/octet-stream" sparkle:edSignature="P/wag7GKn20c5vCJ1Lm1ZPgUKvZTh5/J+2geYezK0c/Y0TW0uTINuYp2tk0MdKQfx4yrdWiKkM18n85mTsLlAg=="/>
-        </item>
-        <item>
-            <title>0.1.48</title>
-            <pubDate>Fri, 13 Nov 2026 04:15:47 +0000</pubDate>
-            <sparkle:version>97</sparkle:version>
-            <sparkle:shortVersionString>0.1.48</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Fixed Rhino getting stuck after you let go of Fn, which made double-tap Fn feel glitchy and Rhino slow to respond.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.48/Rhino-0.1.48.dmg" length="17711777" type="application/octet-stream" sparkle:edSignature="pOGEVGBtvT1PewAqaLV4l78KCOvQvHrWlSSVLsbqol1VyREPTZOvp7Jv08aA6M11TnTEAzY4SPoAujxRAREIBA=="/>
         </item>
     </channel>
 </rss>
