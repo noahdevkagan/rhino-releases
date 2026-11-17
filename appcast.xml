@@ -3,6 +3,17 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.52</title>
+            <pubDate>Tue, 17 Nov 2026 20:04:39 +0000</pubDate>
+            <sparkle:version>101</sparkle:version>
+            <sparkle:shortVersionString>0.1.52</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Bought Rhino on AppSumo? Rhino now asks for your code once after setup, and "Enter AppSumo code…" is in the menu bar. The code box is first in the unlock window, and the menu shows "Rhino Unlimited ✓" once you're unlocked.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.52/Rhino-0.1.52.dmg" length="17742310" type="application/octet-stream" sparkle:edSignature="vG9BH5kbLpPjleGjfJkAdrmG8eTclm8ni0wcnWsxjXM7O0MoLfJkQueLndrFh4j09XKCashCJjtqse+hmbzlBg=="/>
+        </item>
+        <item>
             <title>0.1.51</title>
             <pubDate>Sat, 14 Nov 2026 03:41:41 +0000</pubDate>
             <sparkle:version>100</sparkle:version>
@@ -23,18 +34,6 @@
             <description sparkle:format="markdown"><![CDATA[- Fn+arrow keys (Page Up, Home and friends) no longer flash the recording bubble.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.50/Rhino-0.1.50.dmg" length="17706014" type="application/octet-stream" sparkle:edSignature="jdhle733fReuPpCElPYc7R5uyFUr8f8Q99b4lX4hk37Ok0n41L2KMyUutpQPJtXBgTGO5kTHzP6ISBT9CmRpDg=="/>
-        </item>
-        <item>
-            <title>0.1.49</title>
-            <pubDate>Fri, 13 Nov 2026 19:53:15 +0000</pubDate>
-            <sparkle:version>98</sparkle:version>
-            <sparkle:shortVersionString>0.1.49</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Fixed dictation sometimes flashing on and off without typing anything when you press Fn.
-- Rhino now learns any word you fix, not just names. Correct a misspelling like kubernets → kubernetes and it goes in your dictionary, with an Undo.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.49/Rhino-0.1.49.dmg" length="17701634" type="application/octet-stream" sparkle:edSignature="P/wag7GKn20c5vCJ1Lm1ZPgUKvZTh5/J+2geYezK0c/Y0TW0uTINuYp2tk0MdKQfx4yrdWiKkM18n85mTsLlAg=="/>
         </item>
     </channel>
 </rss>
