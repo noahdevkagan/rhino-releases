@@ -3,6 +3,18 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.55</title>
+            <pubDate>Mon, 23 Nov 2026 18:19:31 +0000</pubDate>
+            <sparkle:version>104</sparkle:version>
+            <sparkle:shortVersionString>0.1.55</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- New on Home: Your Rhino Wrapped. Your most-used word, favorite app, filler word, best streak, peak hour and more, with a Share button that makes an image with your invite link. New users see it fill up over their first 10 dictations.
+- Silent recordings no longer type stock phrases like "Vielen Dank." or "Gracias." in German, Spanish, French, Portuguese, Italian or Dutch.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.55/Rhino-0.1.55.dmg" length="17026767" type="application/octet-stream" sparkle:edSignature="ObRv9kzY8ADQQSwnYvHgHDhxk5LSCpuQhWbCUZj8W30+V/wngmSI0VFHH7DKrW1w3SmT2PKnGieDNACg2juuCw=="/>
+        </item>
+        <item>
             <title>0.1.54</title>
             <pubDate>Wed, 18 Nov 2026 23:24:50 +0000</pubDate>
             <sparkle:version>103</sparkle:version>
@@ -24,17 +36,6 @@
             <description sparkle:format="markdown"><![CDATA[- The code prompt and menu now say "Have an unlock code?" and "Enter unlock code…", so they work for your $20 purchase code as well as AppSumo codes.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.53/Rhino-0.1.53.dmg" length="17737450" type="application/octet-stream" sparkle:edSignature="UEKfqKfz7i6SJYHuXViRYhhaUvdA+YqI2h5Jp3PQFklr9dCJFfk6SiYiXS5QdtzBiQn1F1onYy1m75rB3GjfDA=="/>
-        </item>
-        <item>
-            <title>0.1.52</title>
-            <pubDate>Tue, 17 Nov 2026 20:04:39 +0000</pubDate>
-            <sparkle:version>101</sparkle:version>
-            <sparkle:shortVersionString>0.1.52</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Bought Rhino on AppSumo? Rhino now asks for your code once after setup, and "Enter AppSumo code…" is in the menu bar. The code box is first in the unlock window, and the menu shows "Rhino Unlimited ✓" once you're unlocked.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.52/Rhino-0.1.52.dmg" length="17742310" type="application/octet-stream" sparkle:edSignature="vG9BH5kbLpPjleGjfJkAdrmG8eTclm8ni0wcnWsxjXM7O0MoLfJkQueLndrFh4j09XKCashCJjtqse+hmbzlBg=="/>
         </item>
     </channel>
 </rss>
