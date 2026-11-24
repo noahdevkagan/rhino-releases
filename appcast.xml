@@ -3,6 +3,18 @@
     <channel>
         <title>Rhino</title>
         <item>
+            <title>0.1.56</title>
+            <pubDate>Tue, 24 Nov 2026 20:10:29 +0000</pubDate>
+            <sparkle:version>105</sparkle:version>
+            <sparkle:shortVersionString>0.1.56</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- History and Stats now have their own tabs. Stats shows your words, time saved, streak, top apps and your Wrapped for this week, this month, this year or all time, compared with the period before, and you can share any of them.
+- Home is simpler: a This week card and your last 3 dictations. History has app filters and groups dictations by day.
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.56/Rhino-0.1.56.dmg" length="17310954" type="application/octet-stream" sparkle:edSignature="Hxbt32wuIKP6PjkfENZsCRonGL5iYxuFVnfOMDDzqmuUePWxfCTVfZ7fAfXmm2yAfxqq3J1noPD7MNdIuqPzCA=="/>
+        </item>
+        <item>
             <title>0.1.55</title>
             <pubDate>Mon, 23 Nov 2026 18:19:31 +0000</pubDate>
             <sparkle:version>104</sparkle:version>
@@ -25,17 +37,6 @@
 - The feedback email now includes a count of dictations cancelled as key shortcuts, so reports like this are quicker to pin down.
 ]]></description>
             <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.54/Rhino-0.1.54.dmg" length="17744699" type="application/octet-stream" sparkle:edSignature="UREHPRO/i2siicHD+vvak6a8LVKDf3VqaYJKjAKTgEV10etFUiSyIAFtu1jA1tYVLWm1C9KVbBFFeO605sNQCQ=="/>
-        </item>
-        <item>
-            <title>0.1.53</title>
-            <pubDate>Wed, 18 Nov 2026 17:28:40 +0000</pubDate>
-            <sparkle:version>102</sparkle:version>
-            <sparkle:shortVersionString>0.1.53</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- The code prompt and menu now say "Have an unlock code?" and "Enter unlock code…", so they work for your $20 purchase code as well as AppSumo codes.
-]]></description>
-            <enclosure url="https://github.com/noahdevkagan/rhino-releases/releases/download/v0.1.53/Rhino-0.1.53.dmg" length="17737450" type="application/octet-stream" sparkle:edSignature="UEKfqKfz7i6SJYHuXViRYhhaUvdA+YqI2h5Jp3PQFklr9dCJFfk6SiYiXS5QdtzBiQn1F1onYy1m75rB3GjfDA=="/>
         </item>
     </channel>
 </rss>
